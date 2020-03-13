@@ -1,3 +1,10 @@
+/*-------------------------------------Fonts---------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron:100,300,400,700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
 /*-------------------------------------Background Color---------------------------------------------*/
 
 body {
@@ -19,17 +26,17 @@ a.nav-link {
 
 /*-------------------------------------Images & Logos---------------------------------------------*/
 
+img.logo {
+    height: 100px;
+    max-width: auto;
+}
+
+/* The hero image */
+
 body, html {
     height: 100%;
 }
 
-img.logo {
-    height: 100px;
-    max-width: auto;
-    text-align: center;
-}
-
-/* The hero image */
 .main-image {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scooterbar.jpg");
   height: 70%;
@@ -49,4 +56,14 @@ img.logo {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #35b729;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
 }
