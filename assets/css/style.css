@@ -5,14 +5,13 @@ body {
     font-family: 'Orbitron', sans-serif;
 }
 
-/*-------------------------------------Background Color---------------------------------------------*/
+/*-----------------------------------Background Color-----------------------------------*/
 
-body {
-    background: #35b729; /* fallback color */
-    background: linear-gradient(white, white, #35b729);
+html {
+    background: linear-gradient(white, #fafafa, #35b729);
 }
 
-/*-------------------------------------Navbar---------------------------------------------*/
+/*-------------------------------------Navbar-------------------------------------------*/
 
 a.nav-link {
     color: #35b729;
@@ -35,7 +34,16 @@ body, html {
 
 .main-image {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scooterbar.jpg");
-  height: 70%;
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll-image2 {
+  background:url("../images/scooterfeet.jpeg");
+  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +67,40 @@ h1 {
     text-decoration-color: #35b729;
 }
 
-h2 {
+h2.smart {
     text-align: center;
     padding: 30px;
+    background-color: #35b729;
 }
+
+h2.our-goal {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*-------------------------------------Sections---------------------------------------------*/
+
+.about-us {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 50px;  
+}
+
+p.about {
+    padding: 15px;
+}
+
+hr.space-about {
+  border: 2px solid #35b729;
+  width: 50%;
+}
+
+hr.space-our-goal {
+  border: 2px solid #35b729;
+  width: 50%;
+}
+
+
+
+
+
