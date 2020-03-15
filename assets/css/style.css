@@ -68,7 +68,7 @@ h1 {
     text-decoration-color: #35b729;
 }
 
-h2.smart {
+h2.green-header {
     text-align: center;
     padding: 30px;
     background-color: #35b729;
@@ -88,7 +88,7 @@ h2.our-goal {
 }
 
 p.about {
-    padding: 15px;
+    padding: 30px;
 }
 
 hr.space-about {
@@ -99,6 +99,12 @@ hr.space-about {
 hr.space-our-goal {
   border: 2px solid #35b729;
   width: 50%;
+}
+
+p.our-goal {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 30px;
 }
 
 /*-------------------------------------Footer---------------------------------------------*/
