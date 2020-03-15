@@ -50,6 +50,21 @@ body, html {
   background-size: cover;
 }
 
+.scroll-image3 {
+  background:url("../images/phone-app.png");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.app-logos {
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 3em;
+}
+
 
 /*-------------------------------------Headers---------------------------------------------*/
 
@@ -74,10 +89,16 @@ h2.green-header {
     background-color: #35b729;
 }
 
-h2.our-goal {
+h3.our-goal {
     text-align: center;
     padding-top: 50px;
 }
+
+h3.technology-header {
+    text-align: center;
+    padding-top: 50px;
+}
+
 
 /*-------------------------------------Sections---------------------------------------------*/
 
@@ -102,6 +123,17 @@ hr.space-our-goal {
 }
 
 p.our-goal {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+hr.space-technology {
+  border: 2px solid #35b729;
+  width: 50%;
+}
+
+p.technology {
     text-align: center;
     letter-spacing: 1px;
     padding: 30px;
