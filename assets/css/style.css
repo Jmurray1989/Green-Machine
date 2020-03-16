@@ -15,7 +15,22 @@ html {
 
 a.nav-link {
     color: #35b729;
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+a.nav-link:hover {
+    color: black; 
+}
+
+.sign-up {
+    background-color:  #35b729;
+    color: white;
+    border: 10px #35b729 solid;
+    border-radius: 10px;
+}
+
+.sign-up:hover {
+    color: black; 
 }
 
 
@@ -59,6 +74,15 @@ body, html {
   background-size: cover;
 }
 
+.location-img {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/dublin.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 div.app-logos {
     text-align: center;
     padding-bottom: 50px;
@@ -78,6 +102,17 @@ div.app-logos {
   color: white;
 }
 
+/* Place text in the middle of the location hero image */
+
+.locations-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 h1 {
     text-decoration: underline;
     text-decoration-color: #35b729;
@@ -85,7 +120,7 @@ h1 {
 
 h2.green-header {
     text-align: center;
-    padding: 30px;
+    padding: 50px;
     background-color: #35b729;
 }
 
@@ -95,6 +130,11 @@ h3.our-goal {
 }
 
 h3.technology-header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h3.locations-header {
     text-align: center;
     padding-top: 50px;
 }
@@ -134,9 +174,20 @@ hr.space-technology {
 }
 
 p.technology {
-    text-align: center;
-    letter-spacing: 1px;
-    padding: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 30px;
+}
+
+hr.space-locations {
+  border: 2px solid #35b729;
+  width: 50%;
+}
+
+p.locations {
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 30px;  
 }
 
 /*-------------------------------------Footer---------------------------------------------*/
@@ -154,6 +205,11 @@ p.technology {
 
 }
 
+a.footer-link {
+    color: #35b729;
+    font-size: 2rem;
+}
+
 .follow-us {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -166,6 +222,4 @@ p.technology {
 #apple-logo {
     height: 46px;
 }
-
-
 
