@@ -105,6 +105,17 @@ margin-top: 35px;
 margin-bottom: 20px;
 }
 
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  margin-top: 20px;
+  
+}
+.row.design {
+    margin-left: 100px;
+}
+
 
 
 /*-------------------------------------Headers---------------------------------------------*/
@@ -287,4 +298,6 @@ a.footer-link {
 #apple-logo {
     height: 46px;
 }
+
+
 
