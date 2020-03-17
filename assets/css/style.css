@@ -98,6 +98,12 @@ div.app-logos {
     letter-spacing: 3em;
 }
 
+.skoot-route-img {
+margin-top: 35px;
+margin-bottom: 20px;
+}
+
+
 
 /*-------------------------------------Headers---------------------------------------------*/
 
@@ -154,6 +160,7 @@ h3.route-header {
 }
 
 
+
 /*-------------------------------------Sections---------------------------------------------*/
 
 .about-us {
@@ -208,6 +215,38 @@ hr.space-route {
   border: 2px solid #35b729;
   width: 50%;
 }
+
+hr.space-route-p {
+  border: 2px solid #35b729;
+  width: 20%;
+}
+
+.route {
+    text-align: center;
+    background-color: white;
+    
+}
+
+.skoot-button {
+    background-color:  #35b729;
+    color: white;
+    border: 10px #35b729 solid;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.skoot-button:hover {
+    color: black; 
+}
+
+p.skoot-route {
+    display: grid;
+    margin: 50px 20vw;
+}
+
+
+
+
 
 /*-------------------------------------Footer---------------------------------------------*/
 
