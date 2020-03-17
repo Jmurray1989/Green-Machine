@@ -7,8 +7,10 @@ body {
 
 /*-----------------------------------Background Color-----------------------------------*/
 
-html {
-    background: linear-gradient(white, #fafafa, #35b729);
+.container-fluid {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 255, 0, 0.158));
+  
 }
 
 /*-------------------------------------Navbar-------------------------------------------*/
@@ -84,7 +86,7 @@ body, html {
 }
 
 .route-image {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/scootercity.jpg");
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scootercity.jpg");
   height: 70vh;
   background-attachment: fixed;
   background-position: center;
@@ -135,7 +137,7 @@ h1 {
 
 h2.green-header {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     background-color: #35b729;
 }
 
@@ -170,7 +172,7 @@ h3.route-header {
 }
 
 p.about {
-    padding: 30px;
+    margin: 50px 10vw;
 }
 
 hr.space-about {
@@ -186,18 +188,21 @@ hr.space-our-goal {
 p.our-goal {
     text-align: center;
     letter-spacing: 1px;
-    padding: 30px;
+    margin: 50px 10vw;
+    margin-bottom: 0;
+    padding-bottom: 50px;
 }
 
 hr.space-technology {
   border: 2px solid #35b729;
   width: 50%;
+  
 }
 
 p.technology {
   text-align: center;
   letter-spacing: 1px;
-  padding: 30px;
+  margin: 50px 10vw;
 }
 
 hr.space-locations {
@@ -207,8 +212,10 @@ hr.space-locations {
 
 p.locations {
   text-align: center;
-  letter-spacing: 1px;
-  padding: 30px;  
+  letter-spacing: 1px; 
+  margin: 50px 10vw;
+  margin-bottom: 0;
+  padding-bottom: 50px; 
 }
 
 hr.space-route {
@@ -241,7 +248,7 @@ hr.space-route-p {
 
 p.skoot-route {
     display: grid;
-    margin: 50px 20vw;
+    margin: 50px 10vw;
 }
 
 
