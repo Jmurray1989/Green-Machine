@@ -100,6 +100,10 @@ div.app-logos {
     letter-spacing: 3em;
 }
 
+#apple-logo {
+    height: 46px;
+}
+
 .skoot-route-img {
 margin-top: 35px;
 margin-bottom: 20px;
@@ -177,6 +181,7 @@ h3.route-header {
     text-align: center;
     padding-top: 50px;
 }
+
 
 
 
@@ -288,30 +293,14 @@ p.skoot-route {
     max-width: auto;
 }
 
-#social-icons {
+.social-icons {
     font-size: 2rem;
     color: black;
     letter-spacing: .5em;
 
 }
 
-a.footer-link {
-    color: #35b729;
-    font-size: 2rem;
-}
 
-.follow-us {
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
-.buttonfooterlink {
-    float: right;
-}
-
-#apple-logo {
-    height: 46px;
-}
 
 
 
