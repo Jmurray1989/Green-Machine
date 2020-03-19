@@ -76,8 +76,8 @@ body, html {
   background-size: cover;
 }
 
-.locations-image {
-  background:url("../images/dublin.jpg");
+.design-image {
+  background:url("../images/lime_scooter.jpg");
   height: 70vh;
   background-attachment: fixed;
   background-position: center;
@@ -106,15 +106,16 @@ margin-bottom: 20px;
 }
 
 /* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
+.design-images {
   width: 33.33%;
-  margin-top: 20px;
-  
+  margin-top: 20px;  
 }
+
 .row.design {
-    margin-left: 100px;
+    padding: 10px;
+    margin-left: 0px;
 }
+
 
 
 
@@ -162,15 +163,21 @@ h3.technology-header {
     padding-top: 50px;
 }
 
-h3.locations-header {
+h3.design-header {
     text-align: center;
     padding-top: 50px;
+}
+
+.design-headers {
+    font-weight: bold;
+    margin: 0.7em;
 }
 
 h3.route-header {
     text-align: center;
     padding-top: 50px;
 }
+
 
 
 
@@ -216,7 +223,7 @@ p.technology {
   margin: 50px 10vw;
 }
 
-hr.space-locations {
+hr.space-design {
   border: 2px solid #35b729;
   width: 50%;
 }
@@ -260,6 +267,13 @@ hr.space-route-p {
 p.skoot-route {
     display: grid;
     margin: 50px 10vw;
+}
+
+.design-p {
+    
+    font-size: 0.9em;
+    padding: .5rem;
+    padding-bottom: 2.5rem;
 }
 
 
