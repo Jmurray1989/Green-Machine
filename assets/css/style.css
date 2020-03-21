@@ -28,7 +28,7 @@ a.nav-link:hover {
 
 .sign-up {
     background-color:  #35b729;
-    color: white;
+    color: #EBECEC;
     border: 10px #35b729 solid;
     border-radius: 10px;
 }
@@ -126,7 +126,7 @@ margin-bottom: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #EBECEC;
 }
 
 /* Place text in the middle of the location hero image */
@@ -137,7 +137,7 @@ margin-bottom: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #EBECEC;
 }
 
 h1 {
@@ -251,13 +251,13 @@ hr.space-route-p {
 
 .route {
     text-align: center;
-    background-color: white;
+    background-color: #EBECEC;
     
 }
 
 .skoot-button {
     background-color:  #35b729;
-    color: white;
+    color: #EBECEC;
     border: 10px #35b729 solid;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -285,10 +285,18 @@ p.skoot-route {
 
 /*-------------------------------------Footer---------------------------------------------*/
 
+h4.footer-header {
+    padding: 1rem;
+    margin: 0;
+}
+
 .footer {
-    background-color: #EBECEC;
     height: 300px;
     max-width: auto;
+}
+
+.footer-border {
+     background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 255, 0, 0.158));
 }
 
 .social-icons {
@@ -298,9 +306,25 @@ p.skoot-route {
 
 }
 
-.footer-border {
-    border: 2px solid #35b729;
+ul.footer-list {
+    list-style-type: none;
 }
+
+.footer-copyright {
+    background-color: #35b729;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.footer-divider {
+    background-color: #35b729;
+}
+
+.signature {
+    color: black;
+}
+
 
 
 
