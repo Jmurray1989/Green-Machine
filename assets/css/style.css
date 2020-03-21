@@ -7,10 +7,12 @@ body {
 
 /*-----------------------------------Background Color-----------------------------------*/
 
-.container-fluid {
+.about-us-sec,
+.our-goal-sec,
+.technology-sec,
+.design-sec {
   background-color: white; /* For browsers that do not support gradients */
-  background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 255, 0, 0.158));
-  
+  background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 255, 0, 0.158));  
 }
 
 /*-------------------------------------Navbar-------------------------------------------*/
@@ -109,18 +111,10 @@ margin-top: 35px;
 margin-bottom: 20px;
 }
 
-/* The grid: Four equal columns that floats next to each other */
-.design-images {
-  width: 33.33%;
-  margin-top: 20px;  
-}
-
 .row.design {
     padding: 10px;
     margin-left: 0px;
 }
-
-
 
 
 /*-------------------------------------Headers---------------------------------------------*/
@@ -180,6 +174,10 @@ h3.design-header {
 h3.route-header {
     text-align: center;
     padding-top: 50px;
+}
+
+.footer-header {
+  text-align: center;
 }
 
 
@@ -298,6 +296,10 @@ p.skoot-route {
     color: black;
     letter-spacing: .5em;
 
+}
+
+.footer-border {
+    border: 2px solid #35b729;
 }
 
 
