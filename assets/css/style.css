@@ -175,13 +175,6 @@ h3.route-header {
     padding-top: 50px;
 }
 
-.footer-header {
-  text-align: center;
-}
-
-
-
-
 
 /*-------------------------------------Sections---------------------------------------------*/
 
@@ -284,18 +277,13 @@ p.skoot-route {
 
 /*-------------------------------------Footer---------------------------------------------*/
 
-h4.footer-header {
+.page-footer {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 255, 0, 0.158)); 
+}
+
+.footer-title {
+    text-align: center;
     padding: 1rem;
-    margin: 0;
-}
-
-.footer {
-    height: 300px;
-    max-width: auto;
-}
-
-.footer-border {
-     background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 255, 0, 0.158));
 }
 
 .social-icons {
@@ -305,8 +293,12 @@ h4.footer-header {
 
 }
 
-ul.footer-list {
+.footer-list {
     list-style-type: none;
+}
+
+.footer-list li {
+    padding: 5px 1em;
 }
 
 .footer-copyright {
@@ -316,6 +308,7 @@ ul.footer-list {
     color: black;
 }
 
+
 .footer-divider {
     background-color: #35b729;
 }
@@ -324,6 +317,14 @@ ul.footer-list {
     color: black;
 }
 
+a {
+    color: black;
+}
+
+.form {
+    padding: 1em;
+    
+}
 
 
 
