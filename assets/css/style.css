@@ -272,18 +272,16 @@ p.skoot-route {
 }
 
 
-
-
-
 /*-------------------------------------Footer---------------------------------------------*/
 
 .page-footer {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 255, 0, 0.158)); 
+    background-color:   rgba(0, 255, 0, 0.100); 
 }
 
 .footer-title {
     text-align: center;
     padding: 1rem;
+    font-weight: 600;
 }
 
 .social-icons {
@@ -295,6 +293,7 @@ p.skoot-route {
 
 .footer-list {
     list-style-type: none;
+    padding: 0;
 }
 
 .footer-list li {
@@ -321,9 +320,19 @@ a {
     color: black;
 }
 
+.footer-row {
+    padding: 1rem;
+}
+
 .form {
     padding: 1em;
-    
+    background-image: linear-gradient( rgba(255, 255, 255, 2.0), rgba(0, 255, 0, 0.158)); 
+    box-shadow: 0 0 1em 5px;
+    border-radius: 1rem;
+}
+
+div#map {
+    min-height: 150px;
 }
 
 
