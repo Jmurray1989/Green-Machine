@@ -1,4 +1,4 @@
-/*Renders the map*/
+/*Renders the map & zooms in on location*/
 var map, infoWindow;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
