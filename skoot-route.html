@@ -17,6 +17,7 @@
 	<script src="https://kit.fontawesome.com/837a9d992d.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
+
 </head>
 
 <body>
@@ -45,17 +46,80 @@
 				<li class="nav-item">
 					<a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="shop.html"><i class="fas fa-store"></i> Shop</a>
+				</li>
 				<li class="nav-item active">
 					<a class="nav-link" href="skoot-route.html"><i class="fas fa-directions"></i> Skoot Route</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href=""></a>
+					<a class="nav-link" href="test-drive.html"><i class="fas fa-key"></i> Test Drive</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href=""></a>
-				</li>
-				<button class="sign-up">Sign Up </button>
 			</ul>
+
+			<!-- Modal -->
+			<div class="modal fade" id="elegantModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<!--Content-->
+					<div class="modal-content form-elegant">
+						<!--Header-->
+						<div class="modal-header text-center">
+							<h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel">
+								<strong></strong></h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+						</div>
+						<!--Body-->
+						<div class="modal-body mx-4">
+							<!--Body-->
+							<div class="md-form mb-5">
+								<input type="email" id="Form-email1" class="form-control validate">
+								<label data-error="wrong" data-success="right" for="Form-email1">Your email</label>
+							</div>
+
+							<div class="md-form pb-3">
+								<input type="password" id="Form-pass1" class="form-control validate">
+								<label data-error="wrong" data-success="right" for="Form-pass1">Your password</label>
+								<p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#"
+										class="blue-text ml-1">
+										Password?</a></p>
+							</div>
+
+							<div class="text-center mb-3">
+								<button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign Up</button>
+							</div>
+							<p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or
+								Sign in
+								with:</p>
+
+							<div class="row my-3 d-flex justify-content-center">
+								<!--Facebook-->
+								<button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center"></i></button>
+								<!--Twitter-->
+								<button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-twitter"></i></button>
+								<!--Google +-->
+								<button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g"></i></button>
+							</div>
+						</div>
+						<!--Footer-->
+						<div class="modal-footer mx-5 pt-3 mb-1">
+							<p class="font-small grey-text d-flex justify-content-end">Not a member? <a href="#"
+									class="blue-text ml-1">
+									Sign Up</a></p>
+						</div>
+					</div>
+					<!--/.Content-->
+				</div>
+			</div>
+			<!-- Modal -->
+
+			<div class="text-center">
+				<a href="" class="btn btn-default btn-rounded" data-toggle="modal"
+					data-target="#elegantModalForm"><button class="sign-up">Sign Up</button></a>
+			</div>
+
 		</div>
 	</nav>
 
@@ -74,7 +138,7 @@
 
 	<!--Locations Section-->
 
-	<section class="container route" id="skoot-route">
+	<section class="container-fluid route" id="skoot-route">
 		<h3 class="route-header">Discover Dublin By Scooter</h3>
 
 		<hr class="space-route">
@@ -100,7 +164,7 @@
 
 		<button class="skoot-button"><a href="https://goo.gl/maps/j5EvHQXyd1k" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--Phoenix Route-->
 
@@ -123,7 +187,7 @@
 			<button class="skoot-button"><a href="https://goo.gl/maps/N81ZjGAW6Wo" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 		</section>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--Docklands & Ringsend Route-->
 
@@ -148,7 +212,7 @@
 			<button class="skoot-button"><a href="https://goo.gl/maps/Go4C3Fwnwj62" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 		</section>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--Georgian Dublin Route-->
 
@@ -172,7 +236,7 @@
 			<button class="skoot-button"><a href="https://goo.gl/maps/Cabw44gPnKA2" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 		</section>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--Grand Canal Route-->
 
@@ -194,7 +258,7 @@
 			<button class="skoot-button"><a href="https://goo.gl/maps/PYxN5HE8xWT2" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 		</section>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--Strawberry Beds Route-->
 
@@ -215,7 +279,7 @@
 			<button class="skoot-button"><a href="https://goo.gl/maps/6K8hGAqdafk" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 		</section>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--The Dodder Route-->
 
@@ -237,7 +301,7 @@
 			<button class="skoot-button"><a href="https://goo.gl/maps/WgiXaBrS1UR2" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 		</section>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--Blackrock Route-->
 
@@ -262,7 +326,7 @@
 			<button class="skoot-button"><a href="https://goo.gl/maps/VmCr4AqvNtr" target="_blank" class="skoot-button">Lets Skoot!</a></button>
 		</section>
 
-        <hr class="space">
+		<hr class="space">
 
 		<!--Howth & Malahide Route-->
 
@@ -290,36 +354,140 @@
 
 
 
+	<!--Footer Divider-->
+
+	<div class="footer-divider py-4 d-flex align-items-center">
+
+		<div class="col-md-6 col-lg-5 mb-4 mb-md-0">
+			<h6 class="mb-0">Get connected with us on social networks!</h6>
+		</div>
+
+		<div class="col-md-6 col-lg-7 text-md-right">
+
+			<!--Facebook-->
+			<a href="https://www.facebook.com/" target="_blank" class="social-icons">
+				<i class="fab fa-facebook-f white-text mr-4"> </a></i>
+
+				<!--Twitter-->
+				<a href="https://www.twitter.com/" target="_blank" class="social-icons">
+					<i class="fab fa-twitter white-text mr-4"> </a></i>
+
+					<!--Instagram-->
+					<a href="https://www.instagram.com/" target="_blank" class="social-icons">
+						<i class="fab fa-instagram white-text mr-4"> </a></i>
+
+						<!--Youtube-->
+						<a href="https://www.youtube.com/" target="_blank" class="social-icons">
+							<i class="fab fa-youtube white-text mr-4"> </a></i>
+
+		</div>
+	</div>
+
 	<!--Footer Section-->
 
+	<footer class="page-footer">
 
-	<footer class="footer">
-		<div class="container" id="social-links">
-			<h4 class="follow-us">Follow Us</h4>
+		<div class="container-fluid">
 
-			<!--Footer Icons-->
+			<div class="row footer-row">
+				<div class="col-sm col-md-4">
+					<h4 class="footer-title">Quick Links</h4>
+					<div class="form">
 
-			<a href="https://www.facebook.com"
-				target="_blank"><i class="fab fa-facebook-square" id="social-icons"></i></a>
-			<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter" id="social-icons"></i></a>
-			<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" id="social-icons"></i></a>
+						<ul class="footer-list">
+							<li>
+								<a href="index.html">
+									<i class="fas fa-home fas fa-home fa-lg fa-fw footer-icon" aria-hidden="true"></i>
+									Home Page</a>
+							</li>
 
+							<li>
+								<a href="shop.html">
+									<i class="fas fa-store fa-lg fa-fw footer-icon" aria-hidden="true"></i> Shop</a>
+							</li>
+							<li>
+								<a href="skoot-route.html">
+									<i class="fas fa-directions fa-lg fa-fw footer-icon" aria-hidden="true"></i> Skoot
+									Route</a>
+							</li>
+							<li>
+								<a href="/">
+									<i class="fas fa-user-plus fa-lg fa-fw footer-icon" aria-hidden="true"></i> Sign
+									Up</a>
+							</li>
+						</ul>
 
+					</div>
+				</div>
 
-			<div class="site-links">
-				<h4 class="site-header">Site Links</h4>
+				<div class="col-sm col-md-4">
+					<h4 class="footer-title">Experience</h4>
+					<div class="form">
 
-				<!--Site Links-->
+						<ul class="footer-list">
+							<a href="assets/brochure/brochure.pdf" target="_blank">
+								<li>
+									<i class="fas fa-book fa-lg fa-fw"></i>
+									Download a Brochure
+								</li>
+							</a>
+							<a href="test-drive.html">
+								<li>
+									<i class="fas fa-key fa-lg fa-fw"></i>
+									Request a Test-Drive
+								</li>
+							</a>
+							<a href="https://youtu.be/zOMYOBBRtM8" target="_blank">
+								<li>
+									<i class="fas fa-question-circle fa-lg fa-fw"></i>
+									How to Video
+								</li>
+							</a>
+						</ul>
 
-				<a class="footer-link" href="index.html"><i class="fas fa-home"></i></a>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
+					</div>
+				</div>
+				<div class="col-sm col-md-4">
+					<h4 class="footer-title">Contact Us</h4>
+					<div class="form">
+
+						<ul class="footer-list">
+							<li>
+								<p>
+									<i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+									<span>info@green-machine.com</span>
+								</p>
+								<p>
+									<i class="fas fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+									<span>+353 (0)1 245 1034</span>
+								</p>
+								<p>
+									<i class="fas fa-map-marker-alt fa-lg fa-fw" aria-hidden="true"></i>
+									<span>Green-Machine</span><br>
+                           52-56 O'Connell Street Upper<br>
+                            North City<br>
+                             Dublin<br>
+                             8PXQXV
+                        </p>
+
+							</li>
+						</ul>
+
+						<div id="map"></div>
+
+					</div>
+				</div>
 
 			</div>
 		</div>
 
 	</footer>
+
+	<!-- Copyright -->
+	<div class="footer-copyright">© 2020 Copyright
+		<a href="https://github.com/Jmurray1989" target="_blank" class="signature"> John Murray </a>
+	</div>
+
 
 	<!--Scripts-->
 
@@ -332,6 +500,13 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
+	<script
+		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVTuqYdcru19MnI0mbg6Iq-J_Xtg_8XrM&callback=initMap">
+	</script>
+	<script src="assets/js/maps.js"></script>
 
 </body>
 
