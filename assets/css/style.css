@@ -29,7 +29,7 @@ a.nav-link:hover {
 .sign-up {
     background-color:  #35b729;
     color: #EBECEC;
-    border: 10px #35b729 solid;
+    border: 5px #35b729 solid;
     border-radius: 10px;
 }
 
@@ -59,6 +59,11 @@ a.nav-link:hover {
 
 .form-elegant .modal-body, .form-elegant .modal-footer {
     font-weight: 400; }
+
+input#form-email1.form-control.validate.z-depth-1a {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28);
+    box-shadow: 0 2px 5px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28);
+}
 
 /*-------------------------------------Images & Logos---------------------------------------------*/
 
@@ -110,7 +115,7 @@ body, html {
 }
 
 .route-image {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scootercity.jpg");
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/couple-scooter.jpg");
   height: 70vh;
   background-attachment: fixed;
   background-position: center;
