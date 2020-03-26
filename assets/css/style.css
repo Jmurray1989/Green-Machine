@@ -133,9 +133,12 @@ margin-top: 35px;
 margin-bottom: 20px;
 }
 
-.design-images {
+img.design-images {
     padding-top: 1.5rem;
+    max-width: 100%;
+    height: 45vh;
 }
+
 
 
 /*-------------------------------------Headers---------------------------------------------*/
@@ -285,11 +288,16 @@ p.skoot-route {
     margin: 50px 10vw;
 }
 
+.design-sec {
+    text-align: center;
+}
+
 .design-p {
     
-    font-size: 0.9em;
-    padding: .5rem;
-    padding-bottom: 2.5rem;
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 
