@@ -12,7 +12,7 @@ function smoothScroll( target ) {
         scrollTop: $(target).offset().top
     }, 2000);
 }
-
+                 
 /*Clicking on the Arrow will return you HOME*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
