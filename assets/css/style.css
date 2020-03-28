@@ -74,10 +74,6 @@ img.logo {
 
 /* The hero image */
 
-body, html {
-    height: 100%;
-}
-
 .main-image {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scooterbar.jpg");
   height: 70vh;
@@ -343,11 +339,11 @@ p.skoot-route {
 
 
 .footer-divider {
-    background-color: #35b729;
+    background-color:#35b729;;
 }
 
 .signature {
-    color: black;
+    color: black;#35b729
 }
 
 a {
@@ -365,8 +361,39 @@ a {
     border-radius: 1rem;
 }
 
+/*-------------------------------------Map---------------------------------------------*/
+
 div#map {
     min-height: 150px;
+}
+
+/*------------------------------------Return Arrow---------------------------------------------*/
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #35b729;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 550px;
+}
+#back2Top:hover {
+  background-color: #ffffff;
+    color: #35b729;  
 }
 
 
