@@ -430,6 +430,14 @@ ul.more-specs4 {
     padding: 5px 1em;
 }
 
+footer a:hover {
+    color: #35b729;
+}
+
+a.signature:hover {
+    color: white;
+}
+
 .footer-copyright {
     background-color: #35b729;
     padding: 20px;
