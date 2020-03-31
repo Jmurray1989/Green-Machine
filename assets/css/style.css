@@ -371,6 +371,7 @@ p.skoot-route {
 
 .shop-header {
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .info_btn {
@@ -442,7 +443,7 @@ a {
     border-radius: 1rem;
 }
 
-.form li a:hover {
+footer ul li a:hover {
     color: #35b729;
 }
 
