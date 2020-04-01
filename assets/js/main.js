@@ -85,7 +85,7 @@ function initMap() {
 }
 
 /*Operates the modal return mail function on newsletter request*/
-  console.log("Hello")
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "green_machine_newsletter", {
         "from_name": contactForm.name.value,
@@ -101,3 +101,11 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
+/*Submitting a form and hiding it*/
+$(document).ready(function() {
+  $("#onSubmit").on('submit', function(e) {
+    e.preventDefault();
+    $('#elegantModalForm').modal('hide')
+    });
+  });
