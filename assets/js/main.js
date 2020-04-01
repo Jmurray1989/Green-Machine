@@ -83,3 +83,21 @@ function initMap() {
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
+
+/*Operates the modal return mail function on newsletter request*/
+  console.log("Hello")
+function sendMail(contactForm) {
+    emailjs.send("gmail", "green_machine_newsletter", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  // To block from loading a new page
+}
