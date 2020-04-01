@@ -17,6 +17,13 @@
 	<script src="https://kit.fontawesome.com/837a9d992d.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+      emailjs.init("user_7aJJC1DYAQr1YqC25xbz7");
+   })();
+	</script>
+
 
 </head>
 
@@ -70,6 +77,7 @@
 						Drive</a>
 				</li>
 			</ul>
+
 			<!-- Modal -->
 			<div class="modal fade" id="elegantModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 				aria-hidden="true">
@@ -87,53 +95,44 @@
 						<!--Body-->
 						<div class="modal-body mx-4">
 							<!--Body-->
-							<div class="md-form mb-5">
-								<input type="email" id="Form-email1" class="form-control validate z-depth-1a">
-								<label data-error="wrong" data-success="right" for="Form-email1">Your email</label>
+							<form onsubmit="return sendMail(this);">
+
+								<div class="md-form pb-3">
+									<input type="text" name="name" class="form-control validate z-depth-1a" id="fullname" placeholder="Name" required/>
 							</div>
 
-							<div class="md-form pb-3">
-								<input type="password" id="Form-pass1" class="form-control validate z-depth-1a">
-								<label data-error="wrong" data-success="right" for="Form-pass1">Your password</label>
-								<p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#"
-										class="blue-text ml-1">
-										Password?</a></p>
+									<div class="md-form mb-5">
+										<input type="text" name="emailaddress" class="form-control validate z-depth-1a" id="emailaddress" placeholder="Email" required/>
 							</div>
 
-							<div class="text-center mb-3">
-								<button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign Up</button>
-							</div>
-							<p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or
-								Sign in
-								with:</p>
+										<div class="text-center mb-3">
+											<button type="submit" class="btn btn-block btn-rounded z-depth-1a">Sign Up</button>
+										</div>
+										<p
+											class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2">
+											or
+											Sign up
+											with:</p>
 
-							<div class="row my-3 d-flex justify-content-center">
-								<!--Facebook-->
-								<button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center"></i></button>
-								<!--Twitter-->
-								<button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-twitter"></i></button>
-								<!--Google +-->
-								<button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g"></i></button>
-							</div>
-						</div>
-						<!--Footer-->
-						<div class="modal-footer mx-5 pt-3 mb-1">
-							<p class="font-small grey-text d-flex justify-content-end">Not a member? <a href="#"
-									class="blue-text ml-1">
-									Sign Up</a></p>
+										<div class="row my-3 d-flex justify-content-center">
+											<!--Facebook-->
+											<button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f text-center" aria-hidden="true"></i></button>
+											<!--Twitter-->
+											<button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-twitter" aria-hidden="true"></i></button>
+											<!--Google +-->
+											<button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g" aria-hidden="true"></i></button>
+										</div>
+									</div>
+								</div>
 						</div>
 					</div>
-					<!--/.Content-->
+					<div class="text-center">
+						<button class="sign-up btn btn-default btn-rounded" data-toggle="modal"
+							data-target="#elegantModalForm">Sign Up</button>
+					</div>
+					</form>
+
 				</div>
-			</div>
-			<!-- Modal -->
-
-			<div class="text-center">
-				<a href="" class="btn btn-default btn-rounded" data-toggle="modal"
-					data-target="#elegantModalForm"><button class="sign-up">Sign Up</button></a>
-			</div>
-
-		</div>
 	</nav>
 
 	<!--Main Image-->
@@ -167,22 +166,22 @@
 						uber
 						stylish ultimate electric scooter. Making it easier for you to hop on & GO!.</p>
 
-						<ul class="more-specs">
-                        <h4 class="spec-header">Specifications</h4>
+					<ul class="more-specs">
+						<h4 class="spec-header">Specifications</h4>
 
-							<li>Engine
-								200w</li>
-							<li>Top speed
-								15 kph</li>
-							<li>Range
-								25 km</li>
-							<li>Energy consumption
-								4 Wh/km</li>
-							<li>Charging time
-								3 hours</li>
-							<li>Total weight
-								10 kg</li>
-						</ul>
+						<li>Engine
+							200w</li>
+						<li>Top speed
+							15 kph</li>
+						<li>Range
+							25 km</li>
+						<li>Energy consumption
+							4 Wh/km</li>
+						<li>Charging time
+							3 hours</li>
+						<li>Total weight
+							10 kg</li>
+					</ul>
 
 					<div class="price">€350</div>
 
@@ -215,22 +214,22 @@
 						The ultimate experience for the time conscious, adventure seeking rebel in you!
 						GoGetHER! (Excuse the pun!)</p>
 
-						<ul class="more-specs2">
-                        <h4 class="spec-header">Specifications</h4>
+					<ul class="more-specs2">
+						<h4 class="spec-header">Specifications</h4>
 
-							<li>Engine
-								250w</li>
-							<li>Top speed
-								20 kph</li>
-							<li>Range
-								30 km</li>
-							<li>Energy consumption
-								4.5 Wh/km</li>
-							<li>Charging time
-								3 hours</li>
-							<li>Total weight
-								10.5 kg</li>
-						</ul>
+						<li>Engine
+							250w</li>
+						<li>Top speed
+							20 kph</li>
+						<li>Range
+							30 km</li>
+						<li>Energy consumption
+							4.5 Wh/km</li>
+						<li>Charging time
+							3 hours</li>
+						<li>Total weight
+							10.5 kg</li>
+					</ul>
 
 					<div class="price">€425</div>
 
@@ -263,22 +262,22 @@
 						The new GT packs more torque so you can enjoy a higher speed and conquer slopes
 						with more ease.</p>
 
-						<ul class="more-specs3">
-                        <h4 class="spec-header">Specifications</h4>
+					<ul class="more-specs3">
+						<h4 class="spec-header">Specifications</h4>
 
-							<li>Engine
-								700w</li>
-							<li>Top speed
-								40 kph</li>
-							<li>Range
-								50 km</li>
-							<li>Energy consumption
-								7.5 Wh/km</li>
-							<li>Charging time
-								4-4.5 hours</li>
-							<li>Total weight
-								11.9 kg</li>
-						</ul>
+						<li>Engine
+							700w</li>
+						<li>Top speed
+							40 kph</li>
+						<li>Range
+							50 km</li>
+						<li>Energy consumption
+							7.5 Wh/km</li>
+						<li>Charging time
+							4-4.5 hours</li>
+						<li>Total weight
+							11.9 kg</li>
+					</ul>
 
 					<div class="price">€550</div>
 
@@ -313,22 +312,22 @@
 											The large 10.5 Ah battery will provide you with up to 40 km range and a 50
 											km/h top speed. Battery charges in just 3-4 hours.</p>
 
-							<ul class="more-specs4">
-                            <h4 class="spec-header">Specifications</h4>
+						<ul class="more-specs4">
+							<h4 class="spec-header">Specifications</h4>
 
-								<li>Engine
-									950w</li>
-								<li>Top speed
-									60 kph</li>
-								<li>Range
-									60 km</li>
-								<li>Energy consumption
-									8.0 Wh/km</li>
-								<li>Charging time
-									4-4.5 hours</li>
-								<li>Total weight
-									12.5 kg</li>
-							</ul>
+							<li>Engine
+								950w</li>
+							<li>Top speed
+								60 kph</li>
+							<li>Range
+								60 km</li>
+							<li>Energy consumption
+								8.0 Wh/km</li>
+							<li>Charging time
+								4-4.5 hours</li>
+							<li>Total weight
+								12.5 kg</li>
+						</ul>
 
 						<div class="price">€675</div>
 

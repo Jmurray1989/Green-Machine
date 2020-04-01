@@ -73,6 +73,14 @@ input#form-email1.form-control.validate.z-depth-1a {
     box-shadow: 0 2px 5px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28);
 }
 
+button.btn.btn-block {
+    margin-top: 2rem;
+}
+
+input#fullname {
+    margin-bottom: 2rem;
+}
+
 /*-------------------------------------Images & Logos---------------------------------------------*/
 
 img.logo {
