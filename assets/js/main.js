@@ -1,8 +1,9 @@
 
-/*Adds smooth scroll feature to nav links using jquery*/
+/* Adds smooth scroll feature to nav links using jquery */
+
 $('nav li').click(function (event) {
 
-    var target = $(this).find('a').attr('href');
+    let target = $(this).find('a').attr('href');
     smoothScroll(target);
 
 });
@@ -13,7 +14,7 @@ function smoothScroll(target) {
     }, 2000);
 }
 
-/*Clicking on Find out more button displays & hides more specs*/
+/* Clicking on Find out more button displays & hides more specs */
 
 $('.more-specs').hide();
 $("#show").click(function (e) {
@@ -40,9 +41,10 @@ $("#show4").click(function (e) {
 });
 
 
-/*Clicking on the Arrow will return you HOME*/
+/* Clicking on the Arrow will return you HOME */
+
 $(window).scroll(function () {
-    var height = $(window).scrollTop();
+    let height = $(window).scrollTop();
     if (height > 100) {
         $('#back2Top').fadeIn();
     } else {
@@ -58,54 +60,70 @@ $(document).ready(function () {
 
 });
 
-/*Renders the map & zooms in on location*/
-var map, infoWindow;
+/* Renders the map & zooms in on location */
+
+let map, infoWindow;
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 53.349957, lng: -6.260306 },
         zoom: 14
     });
 
-    /*Adds a marker for my location*/
+    /* Adds a marker for my location */
 
-    var labels = "A";
+    let labels = "A";
 
-    var locations = [
+    let locations = [
         { lat: 53.349957, lng: -6.260306 },
     ];
 
-    var markers = locations.map(function (location, i) {
+    let markers = locations.map(function (location, i) {
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
         });
     });
 
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+    let markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
 
-/*Operates the modal return mail function on newsletter request*/
+/* Operates the modal return mail function on newsletter request */
 
 function sendMail(contactForm) {
     emailjs.send("gmail", "green_machine_newsletter", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
     })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
+        .then(
+            function (response) {
+                console.log("SUCCESS", response);
+            },
+            function (error) {
+                console.log("FAILED", error);
+            }
+        );
     return false;  // To block from loading a new page
 }
 
-/*Submitting a form and hiding it*/
-$(document).ready(function() {
-  $("#onSubmit").on('submit', function(e) {
-    e.preventDefault();
-    $('#elegantModalForm').modal('hide')
+/* Submitting a form and hiding it */
+
+$(document).ready(function () {
+    $("#onSubmit").on('submit', function (e) {
+        e.preventDefault();
+        $('#elegantModalForm').modal('hide')
     });
-  });
+});
+
+/* Option Selector For Test Drive Section */
+
+var img = document.getElementById("image");
+var text = document.getElementById("text");
+
+function setClass(e) {
+  var select = e.target;
+  img.src = select.options[select.selectedIndex].value;
+  text.innerHTML = select.options[select.selectedIndex].dataset.description;
+  return false;
+}
+
+document.getElementById("scooterdropdown").onchange = setClass;
