@@ -97,6 +97,7 @@ img.logo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .scroll-image2 {
@@ -133,6 +134,7 @@ img.logo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .shop-image {
@@ -142,6 +144,7 @@ img.logo {
   background-position: 0px 10px;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 
@@ -173,6 +176,7 @@ img.design-images {
   background-position: 0px 10px;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 /*-------------------------------------Test Drive Section---------------------------------------------*/
@@ -370,7 +374,7 @@ hr.space-route-p {
 
 p.skoot-route {
     display: grid;
-    margin: 50px 10vw;
+    margin: 50px 25vw;
 }
 
 .design-sec {
@@ -436,6 +440,7 @@ p.skoot-route {
 
 .shop-header {
     padding-bottom: 1rem;
+    font-weight: bolder;
 }
 
 .info_btn {
@@ -583,6 +588,108 @@ div#map {
 #back2Top:hover {
   background-color: #ffffff;
     color: #35b729;  
+}
+
+/*-------------------------------------------Media Queries-------------------------------------------*/
+
+/* Mobile devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {  
+
+/* Navbar */
+
+button.navbar-toggler.ml-auto {
+    background-color: #35b729;
+    color: white;
+    font-size: 1.5rem; 
+}
+
+a.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav-icon {
+    display: none;
+}
+
+button.sign-up {
+    margin: 1rem;
+}
+
+div#logo {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+/* Homepage */
+
+/* Adjusts images into frame on mobile*/
+.scroll-image2 {
+    background-position: -500px;
+}
+
+.scroll-image3 {
+    background-position: -200px 200px;
+}
+
+p.about,
+p.our-goal {
+    margin: 0;
+}
+
+.about-us,
+.our-goal {
+    padding: 1rem;
+    letter-spacing: 0;
+}
+
+br {
+    display: none;
+}
+
+/* Shop */
+
+.info_btn {
+    padding: 1rem;
+    margin-inline-start: 0.2em;
+}
+
+.price,
+.shop-header {
+    text-align: center;
+}
+
+p.product-des {
+    text-align: center;
+}
+
+/* Skoot Route */
+
+p.skoot-route {
+    margin: 1rem;
+}
+
+/* Test Drive */
+
+.search-stockist {
+    padding: 1rem;
+    margin-inline-start: 0.5rem;
+}
+
+/* Footer */
+
+.footer-divider-drive,
+.footer-divider {
+    text-align: center;
+}
+
+.footer-list li {
+    padding: .5em .2em;
+}
+
+
 }
 
 
