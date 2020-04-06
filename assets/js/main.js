@@ -116,14 +116,47 @@ $(document).ready(function () {
 
 /* Option Selector For Test Drive Section */
 
-var img = document.getElementById("image");
-var text = document.getElementById("text");
+let img = document.getElementById("image");
+let text = document.getElementById("text");
 
 function setClass(e) {
-  var select = e.target;
+  let select = e.target;
   img.src = select.options[select.selectedIndex].value;
   text.innerHTML = select.options[select.selectedIndex].dataset.description;
   return false;
 }
 
 document.getElementById("scooterdropdown").onchange = setClass;
+
+/* Gets Users Geo Location On Click And Returns Nearest Store Information, If User Says No Will Return Else */
+
+var x = document.getElementById("test-searchbox");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  };
+};
+
+function showPosition(position) {
+  x.innerHTML = "Green-Machine " + "<br> 52-56 O'Connell Street Upper " +  "<br> North City " + "<br> Dublin" + "<br> 8PXQXV" + "<br> +353 (0)1 245 1034" + "<br> info@green-machine.com";
+};
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  };
+};

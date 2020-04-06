@@ -678,7 +678,7 @@ p.skoot-route {
 
 .search-stockist {
     padding: 1rem;
-    margin-inline-start: 0.5rem;
+    text-align: center;
 }
 
 /* Footer */
@@ -744,7 +744,9 @@ img.design-images {
 
 .search-stockist {
     padding: 1rem;
-    margin-block-start: 5rem;
+    margin-block-start: 6rem;
+    text-align: center;
+    padding-top: 0;
 }
 
 }
@@ -782,6 +784,8 @@ img.design-images {
 .search-stockist {
     padding: 1rem;
     margin-block-start: 5rem;
+    text-align: center;
+    padding-top: 0;
 }
 
 
