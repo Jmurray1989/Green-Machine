@@ -84,8 +84,7 @@ input#fullname {
 /*-------------------------------------Images & Logos---------------------------------------------*/
 
 img.logo {
-    height: 100px;
-    max-width: auto;
+    height: 6rem;
 }
 
 /* The hero image */
@@ -141,7 +140,7 @@ img.logo {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scooter-wheel.jpg");
   height: 70vh;
   background-attachment: fixed;
-  background-position: 0px 10px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -592,7 +591,7 @@ div#map {
 
 /*-------------------------------------------Media Queries-------------------------------------------*/
 
-/* Mobile devices (landscape phones, 576px and up) */
+/* Mobile devices (Mobile phones, 576px and up) */
 @media (max-width: 767px) {  
 
 /* Navbar */
@@ -631,7 +630,7 @@ div#logo {
 }
 
 .scroll-image3 {
-    background-position: -200px 200px;
+    background-position: -200px;
 }
 
 p.about,
@@ -653,7 +652,11 @@ br {
 
 .info_btn {
     padding: 1rem;
-    margin-inline-start: 0.2em;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    text-align: center;
 }
 
 .price,
@@ -687,6 +690,98 @@ p.skoot-route {
 
 .footer-list li {
     padding: .5em .2em;
+}
+
+}
+
+/*---Tablet---*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+/* Navbar */
+
+.nav-icon {
+    display: none;
+}
+
+img.logo {
+    height: 4rem;
+}
+
+.sign-up {
+    border: 0;
+}
+
+/* Home */
+
+br {
+    display: none;
+}
+
+.scroll-image2 {
+    background-position: -750px;
+}
+
+.scroll-image3 {
+    background-position: -200px;
+}
+
+img.design-images {
+    height: 20vh;
+}
+
+.design-p {
+    padding: 1rem;
+}
+
+/* Shop */
+
+.scooter-shop-img2 {
+    float: none;    
+}
+
+/* Test-Drive */
+
+.search-stockist {
+    padding: 1rem;
+    margin-block-start: 5rem;
+}
+
+}
+
+/*---Larger Screens---*/
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+/* Home */
+
+.scroll-image2 {
+    background-position: -1000px;
+}
+
+.scroll-image3 {
+    background-position: -200px;
+}
+
+img.design-images {
+    height: 20vh;
+}
+
+.design-p {
+    padding: 1rem;
+}
+
+/* Shop */
+
+.scooter-shop-img2 {
+    float: none;    
+}
+
+/* Test-Drive */
+
+.search-stockist {
+    padding: 1rem;
+    margin-block-start: 5rem;
 }
 
 
