@@ -126,39 +126,40 @@ Intuitive navigation fixed to the top of the the page that resizes for mobile de
 
 * On the homescreen and across all pages i use a sign up button which is linked to a modal which allows the user to sign up to The Green-Machine newsletter.
 
-<p align="left">
-  <img width="200" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/sign-up.png">
+<p align="center">
+  <img width="175" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/sign-up.png">
 </p>
 
 ###### Arrow
 
 * The site also features an arrow button which instead of the user needing to scroll to the top of the webpage by clicking this it returns them there. It is initially activated and will display once the user starts to scroll down the page.
-<p align="left">
-  <img width="400" height="200" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/arrow-button.png">
+
+<p align="center">
+  <img width="300" height="100" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/arrow-button.png">
 </p>
 
 ###### Find Out More
 
 * In the shop section of the website i have a find out more button which when pressed slides down to reveal more specifications in relation to the scooter the user is browsing.
 
-<p align="left">
-  <img width="200" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/find-out.png">
+<p align="center">
+  <img width="175" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/find-out.png">
 </p>
 
 ###### Lets Skoot!
 
 * When the user clicks on this button of their desired route it will bring them to google maps which will show them the route they can take on their scooter around dublin landmarks and sites.
 
-<p align="left">
-  <img width="200" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/skoot-button.png">
+<p align="center">
+  <img width="175" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/skoot-button.png">
 </p>
 
 ###### Scooter Selector
 
 * In the test drive page of the website the user can select which scooter they would like to test drive.
 
-<p align="left">
-  <img width="200" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/selector-button.png">
+<p align="center">
+  <img width="175" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/selector-button.png">
 </p>
 
 ### Location
