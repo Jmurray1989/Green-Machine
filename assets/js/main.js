@@ -1,18 +1,24 @@
 
-/* Adds smooth scroll feature to nav links using jquery */
+/* Adds smooth scroll feature to nav links across all pages using jquery */
 
-$('nav li').click(function () {
-
-    let target = $(this).find('a').attr('href');
-    smoothScroll(target);
-
+$(function(){
+    $(".menu a").on('click', function(){
+        $("html, body").animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 2500);
+    });
+    if(window.location.hash){
+        scroll(0,0);
+        setTimeout(function(){
+            scroll(0,0);
+        }, 1);
+    }
+    if(window.location.hash){
+        $("html, body").animate({
+            scrollTop: $(window.location.hash).offset().top + 'px'
+        }, 2500);
+    }
 });
-
-function smoothScroll(target) {
-    $('body, html').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
-}
 
 /* Clicking on Find out more button displays & hides more specs */
 
@@ -54,7 +60,7 @@ $(window).scroll(function () {
 $(document).ready(function () {
     $("#back2Top").click(function (event) {
         event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, 2000);
+        $("html, body").animate({ scrollTop: 0 }, 2500);
         return false;
     });
 
