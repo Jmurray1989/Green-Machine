@@ -626,11 +626,21 @@ div#logo {
 
 /* Adjusts images into frame on mobile*/
 .scroll-image2 {
-    background-position: -500px;
+  background: url("../images/boyscootermob.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .scroll-image3 {
-    background-position: -200px;
+  background: url("../images/phone-appmob.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 p.about,
@@ -681,6 +691,16 @@ p.skoot-route {
     text-align: center;
 }
 
+.drive-image {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/couple-scootermob.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /* Footer */
 
 .footer-divider-drive,
@@ -719,11 +739,21 @@ br {
 }
 
 .scroll-image2 {
-    background-position: -750px;
+  background: url("../images/boyscootermob.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .scroll-image3 {
-    background-position: -200px;
+  background: url("../images/phone-appmob.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 img.design-images {
@@ -749,6 +779,16 @@ img.design-images {
     padding-top: 0;
 }
 
+.drive-image {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/couple-scootermob.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 }
 
 /*---Larger Screens---*/
@@ -758,11 +798,21 @@ img.design-images {
 /* Home */
 
 .scroll-image2 {
-    background-position: -1000px;
+  background: url("../images/boyscootermob.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .scroll-image3 {
-    background-position: -200px;
+  background: url("../images/phone-appmob.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 img.design-images {
@@ -786,6 +836,16 @@ img.design-images {
     margin-block-start: 5rem;
     text-align: center;
     padding-top: 0;
+}
+
+.drive-image {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/couple-scootermob.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 

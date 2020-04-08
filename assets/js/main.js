@@ -1,7 +1,7 @@
 
 /* Adds smooth scroll feature to nav links using jquery */
 
-$('nav li').click(function (event) {
+$('nav li').click(function () {
 
     let target = $(this).find('a').attr('href');
     smoothScroll(target);
@@ -140,7 +140,7 @@ function getLocation() {
   };
 };
 
-function showPosition(position) {
+function showPosition() {
   x.innerHTML = "Green-Machine " + "<br> 52-56 O'Connell Street Upper " +  "<br> North City " + "<br> Dublin" + "<br> 8PXQXV" + "<br> +353 (0)1 245 1034" + "<br> info@green-machine.com";
 };
 
