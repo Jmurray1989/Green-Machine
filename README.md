@@ -1,19 +1,64 @@
 # Green-Machine
 
-My 2nd milestone project for the Code Institute course.
+<hr>
 
-One or two paragraphs providing an overview of your project.
+### Code Institute / Interactive Frontend Development Milestone Project
 
-Essentially, this part is your sales pitch.
- 
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Tasked to create a website combining knowledge from the Javascript Fundamentals & the Interactive Frontend Development modules on the Code Institute course.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+## Introducing you to
+<p align="center">
+  <img width="350" height="350" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/images/E-Scooter Logo (1).png">
+</p>
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+#### The Idea:
+
+The latest craze around town is electric scooters. Everywhere you now look in any major city across the world you will see electric scooters as they are a great alternative to a bike as you can easily fold them down to carry them on public transport if needed. 
+So this gave me the idea to build a mock up website for a scooter shop based in Dublin, Ireland.
+I built this website using all the content we learned on the course and more using features like the Google Maps API, EmailJS & Javascript features.
+
+#### The goal of this website is to:
+
+Promote the shop by having a feature packed and user friendly website that will be fully responsive across all devices. To allow customers to experience a scooter by taking one of our models for a test drive before they buy.
+
+## User Experience
+
+<hr>
+
+#### User Stories:
+
+1. As a user I want to easily navigate the site across all pages.
+2. As a user I want to see what different scooter models are available.
+3. As a user I want to be able to check the specifications of each model so i can compare and decide on what one i would like to purchase or take for a test drive.
+4. As a user i want to be able to contact the shop to answer any queries i may have.
+5. As a user I want to sign-up to a newsletter so i can be kept up to date with the latest models or special offers.
+
+#### Design:
+
+The project utilises the [Bootstrap 4](https://getbootstrap.com/) framework to ensure Mobile first fully responsive design. When considering the design elements for this project, an eco-friendly/modern color scheme is what came to mind first.
+
+#### Font:
+
+The project has a main font of 'Orbitron' which was imported via css from Google Fonts, with the backup font being set to a default of 'Sans-serif'. The Robotic feel gave the website a modern look but also making each character very easy to read for the user.
+
+#### Logo:
+
+
+
+#### Color Scheme:
+
+To help me choose my color scheme i used [Adobe Color Wheel](https://color.adobe.com/create).
+
+Two primary conflicting colors were chosen when creating this project:
+
+- ![#35b729](https://placehold.it/15/35b729/000000?text=+) `#35b729` 
+- ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff` 
+
+Both colours are featured across the site. On the homepage they are used to create a subtle gradient effect and also a glow in the sign-up modal.
+
+A third color was used to give definiton were it was needed. (on icons etc)
+
+- ![#000000](https://placehold.it/15/000000/000000?text=+) `#000000` 
 
 ## Features
 
