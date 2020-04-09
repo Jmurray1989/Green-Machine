@@ -35,25 +35,25 @@ $(function(){
 $('.more-specs').hide();
 $("#show").click(function (e) {
     e.preventDefault();
-    $(".more-specs").toggle(1000)
+    $(".more-specs").toggle(1000);
 });
 
 $('.more-specs2').hide();
 $("#show2").click(function (e) {
     e.preventDefault();
-    $(".more-specs2").toggle(1000)
+    $(".more-specs2").toggle(1000);
 });
 
 $('.more-specs3').hide();
 $("#show3").click(function (e) {
     e.preventDefault();
-    $(".more-specs3").toggle(1000)
+    $(".more-specs3").toggle(1000);
 });
 
 $('.more-specs4').hide();
 $("#show4").click(function (e) {
     e.preventDefault();
-    $(".more-specs4").toggle(1000)
+    $(".more-specs4").toggle(1000);
 });
 
 /* Renders the map & zooms in on location */
@@ -106,7 +106,7 @@ function sendMail(contactForm) {
 $(document).ready(function () {
     $("#onSubmit").on('submit', function (e) {
         e.preventDefault();
-        $('#elegantModalForm').modal('hide')
+        $('#elegantModalForm').modal('hide');
     });
 });
 
@@ -133,26 +133,26 @@ function getLocation() {
     navigator.geolocation.getCurrentPosition(showPosition, showError);
   } else { 
     x.innerHTML = "Geolocation is not supported by this browser.";
-  };
-};
+  }
+}
 
 function showPosition() {
   x.innerHTML = "Green-Machine " + "<br> 52-56 O'Connell Street Upper " +  "<br> North City " + "<br> Dublin" + "<br> 8PXQXV" + "<br> +353 (0)1 245 1034" + "<br> info@green-machine.com";
-};
+}
 
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
-      x.innerHTML = "User denied the request for Geolocation."
+      x.innerHTML = "User denied the request for Geolocation.";
       break;
     case error.POSITION_UNAVAILABLE:
-      x.innerHTML = "Location information is unavailable."
+      x.innerHTML = "Location information is unavailable.";
       break;
     case error.TIMEOUT:
-      x.innerHTML = "The request to get user location timed out."
+      x.innerHTML = "The request to get user location timed out.";
       break;
     case error.UNKNOWN_ERROR:
-      x.innerHTML = "An unknown error occurred."
+      x.innerHTML = "An unknown error occurred.";
       break;
-  };
-};
+  }
+}
