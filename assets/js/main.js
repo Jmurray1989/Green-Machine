@@ -28,17 +28,6 @@ $(function(){
             scrollTop: $(window.location.hash).offset().top + 'px' 
         }, 2500);
     });
-    if(window.location.hash){
-        scroll(0,0);
-        setTimeout(function(){
-            scroll(0,0);
-        }, 1);
-    }
-    if(window.location.hash){
-        $("html, body").animate({
-            scrollTop: 0 
-        }, 2500);
-    }
 });
 
 /* Clicking on Find out more button displays & hides more specs */
