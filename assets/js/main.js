@@ -1,5 +1,5 @@
 
-/* Adds smooth scroll feature to nav links across all pages using jquery */
+/* Adds smooth scroll down feature to nav links across all pages using jquery */
 
 $(function(){
     $(".menu a").on('click', function(){
@@ -16,6 +16,27 @@ $(function(){
     if(window.location.hash){
         $("html, body").animate({
             scrollTop: $(window.location.hash).offset().top + 'px'
+        }, 2500);
+    }
+});
+
+/* Adds smooth scroll up feature from footer links across all pages using jquery */
+
+$(function(){
+    $(".footer-links a").on('click', function(){
+        $("html, body").animate({
+            scrollTop: $(window.location.hash).offset().top + 'px' 
+        }, 2500);
+    });
+    if(window.location.hash){
+        scroll(0,0);
+        setTimeout(function(){
+            scroll(0,0);
+        }, 1);
+    }
+    if(window.location.hash){
+        $("html, body").animate({
+            scrollTop: 0 
         }, 2500);
     }
 });
@@ -44,26 +65,6 @@ $('.more-specs4').hide();
 $("#show4").click(function (e) {
     e.preventDefault();
     $(".more-specs4").toggle(1000)
-});
-
-
-/* Clicking on the Arrow will return you HOME */
-
-$(window).scroll(function () {
-    let height = $(window).scrollTop();
-    if (height > 100) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function () {
-    $("#back2Top").click(function (event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, 2500);
-        return false;
-    });
-
 });
 
 /* Renders the map & zooms in on location */
