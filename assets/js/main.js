@@ -25,7 +25,7 @@ $(function(){
 $(function(){
     $(".footer-links a").on('click', function(){
         $("html, body").animate({
-            scrollTop: $(window.location.hash).offset().top + 'px' 
+            scrollTop: $(window.location.hash).offset().top 
         }, 2500);
     });
 });
