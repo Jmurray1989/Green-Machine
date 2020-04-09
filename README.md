@@ -61,12 +61,14 @@ The Logo itself was custom designed by me using a site called [Canva](https://ww
 
 To help me choose my color scheme i used [Adobe Color Wheel](https://color.adobe.com/create).
 
+This process took a long time during the wireframe stage. In the end i decided on this color scheme as it is very eco friendly in appearance and gives the webpage plenty of
+
 Two primary conflicting colors were chosen when creating this project:
 
 - ![#35b729](https://placehold.it/15/35b729/000000?text=+) `#35b729` 
 - ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff` 
 
-Both colours are featured across the site. On the homepage they are used to create a subtle gradient effect and also a glow in the sign-up modal.
+Both colours are featured across the site. On the homepage they are used to create a subtle gradient effect and also a glow in the sign-up modal. In areas were the contrast of a green background and black fonts were used we gave icons a hover effect of #ffffff(White). Also in areas were #ffffff was used main as the background we gave the hover effect the darker color of #000000(Black) mainly to show the user that these elements are interact-able and something can happen when clicked on.
 
 A third color was used to give definiton were it was needed. (on icons etc)
 
@@ -78,7 +80,7 @@ To build my wireframes i used [Balsamiq](https://balsamiq.com/).
 
 All wireframes created for this project can be found [Here](https://github.com/Jmurray1989/).
 
-Each element was structurally planned out at this stage and even during the physical build of the application there was not much deviation from the original planning.
+Each element was structurally planned out at this stage and even during the physical build of the application there was not much deviation from the original planning. Each page was rendered as a wireframe in all viewport sizes to show the difference between them and to show how the elements would react to differing viewport sizes. 
 
 Examples below:-
 
@@ -96,10 +98,13 @@ Examples below:-
 
 ## Features
 
+<hr>
+
 * This is a summary of the features i have put in place on my project but also the features i hope to add in the future.
 
 * All pages on the website follow the same principle with a fixed navbar, main image, a header, a footer divider with links to all of our social media platforms and a footer which has many quick links to other parts of the site and it also contains a contact us form with a map of were the store is located.
 
+The project has several key features:
 
 ### Navbar
 
@@ -120,6 +125,10 @@ Intuitive navigation fixed to the top of the the page that resizes for mobile de
 
 * On the homescreen i have 4 images that use this feature. Each image is used to emphasize the section you are scrolling through.
 
+### Auto Scroll
+
+* On click of each nav link or footer site links an auto scroll initiates and brings the user to the required destination.
+
 ### Buttons
 
 ###### Sign Up
@@ -128,14 +137,6 @@ Intuitive navigation fixed to the top of the the page that resizes for mobile de
 
 <p align="center">
   <img width="175" height="50" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/sign-up.png">
-</p>
-
-###### Arrow
-
-* The site also features an arrow button which instead of the user needing to scroll to the top of the webpage by clicking this it returns them there. It is initially activated and will display once the user starts to scroll down the page.
-
-<p align="center">
-  <img width="300" height="100" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/arrow-button.png">
 </p>
 
 ###### Find Out More
@@ -179,38 +180,115 @@ Intuitive navigation fixed to the top of the the page that resizes for mobile de
 3. [Instagram](https://www.instagram.com/)
 4. [Youtube](https://www.youtube.com/)
 
+### Removed Features
+
+One feature I decided to remove was the arrow up floating button that on click brought you back to the top of the page from towards the end of the project due to the fact i felt with already having the scroll down and the scroll up features applied to the nav & footer links it was to much bouncing around the webpage and didnt offer a great user experience.
+
 ### Future Plans
 
+- Using the "Add to Cart" buttons I would like to add the feature of adding scooters to a shopping cart and checkout so that purchases can be made.
+
+- To take the skoot route idea and implement it so that people will be able to create their own routes and add them to a new section of the site or on the mobile app.
+
+- Create a database for the newsletter sign ups the site receives, to keep people up to date with all thats new with Green-Machine.
 
 
+## Technologies Used:
 
-## Technologies Used
+<hr>
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The Technologies I used to build this project are as follows,
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+* Buiding the foundation of my project.
+
+[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+* For custom styling of my project.
+
+[Javascript](https://www.javascript.com/)
+
+* To implement features and user input for the website.
+
+[JQuery](https://jquery.com/)
+
+* The project uses JQuery to simplify DOM manipulation.
+
+[Bootstrap 4](https://getbootstrap.com/)
+
+* The framework i used to achieve the album card layout, my navbar, gallery section & contact form.
+
+[Font Awesome 5](https://fontawesome.com/)
+
+* Used for all icons within the footer and buttons.
+
+[Google Fonts](https://fonts.google.com/)
+
+* Used for the typography of the project.
+
+[GitHub](https://github.com/)
+
+* Used to store & manage my code.
+
+[GitPod](https://www.gitpod.io/)
+
+* My IDE of choice to develop my project.
+    
+### Tools Used:
+
+[Tinypng](https://tinypng.com/) 
+
+* Used to compress images without affecting image quality and to achieve faster image load times.
+
+[Balsamiq](https://balsamiq.com/)
+
+* Used for the creation of my pre-build wireframes showing the main elements and differences in size of same through small to large screen sizes.
+
+[Favicon Generator](https://www.favicon-generator.org/)
+
+* Used to create favicon from custom Logo I created for the project.
+
+[Adobe Color Wheel](https://color.adobe.com/create)
+
+* Helped achieve color scheme.
+
+[W3C Mark-up Validation](https://validator.w3.org/) and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) 
+
+* where used to check the validity of the project's code. 
+
+[JSHint](https://jshint.com/)
+
+* Using JSHint to validate the project's Javascript
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<hr>
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The website has been tested across multiple browsers and on mobile devices to ensure compatibility and responsiveness of the site.Continuous testing for this application was carried throughout the entire lifetime of the build. This was achieved through the Chrome Devtools and it was used constantly to test on as many devices as possible from Android to Apple phones & tablet dimensions, and also larger device sizes. The website was tested constantly throughout the build at home using a Samsung Galaxy S10 & S8, a Xiaomi Redmi Pro 8 and for the tablet size i used an Amazon Fire HD 8 and an IPad.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Desktop
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- IE
+- Opera
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Mobile Devices
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- iPhone 8
+- Galaxy S10
+- iPad
+- Amazon Fire Hd 8
+- IPad
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I used JSHint to validate the project's Javascript file which i configured to accept jQuery & ES6 New JS features, It returned with 14 warnings of which I fixed. Mainly it was missing semicolons and having some in the incorrect places.
+
+I used [W3C Mark-up Validation](https://validator.w3.org/) and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to validate my html and css code. On running my HTML code throught the validator it returned a few errors which are all now fixed. 
+
+### Known Issues
 
 ## Deployment
 
