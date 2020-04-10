@@ -110,7 +110,7 @@ Examples below:-
 
 * All pages on the website follow the same principle with a fixed navbar, main image, a header, a footer divider with links to all of our social media platforms and a footer which has many quick links to other parts of the site and it also contains a contact us form with a map of were the store is located.
 
-The project has several key features:
+<strong>The project has several key features:</strong>
 
 ### Navbar
 
@@ -198,7 +198,7 @@ Two features I decided to remove from the finished project where the arrow up fl
 
 - Create a database for the newsletter sign ups the site receives, to keep people up to date with all thats new with Green-Machine.
 
--In the sign up newsletter modal, I would like to have the social icons fully functioning so that the user could sign up to the newsletter by signing up through their social media platforms.
+- In the sign up newsletter modal, I would like to have the social icons fully functioning so that the user could sign up to the newsletter by signing up through their social media platforms.
 
 
 ## Technologies Used:
@@ -234,6 +234,14 @@ The Technologies I used to build this project are as follows,
 [Google Fonts](https://fonts.google.com/)
 
 * Used for the typography of the project.
+
+[Google Maps API](https://cloud.google.com/maps-platform/)
+
+* Used to display my map & add a marker
+
+[EmailJS](https://www.emailjs.com/)
+
+* Used to send an auto-reply mail on user sign up to newsletter
 
 [GitHub](https://github.com/)
 
@@ -320,24 +328,61 @@ I have found none of these issues with any of the other browsers i tested.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+<hr>
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+My project was developed using GitHub IDE, committed to git and pushed to GitHub. The following steps where taken to deploy my project.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Logged into GitHub.
+Selected repository from the GitHub dashboard.
+Selected Settings at the top of the chosen repository.
+Scrolled down to GitHub Pages section.
+Under Source I clicked the drop-down menu and selected master branch.
 
+Website is now deployed and is available here:
+
+* https://jmurray1989.github.io/Green-Machine/index.html
+
+My repository can be found here:
+
+* https://github.com/Jmurray1989/Green-Machine
+
+For this project, local deployment was not required.
+
+To clone the website:
+
+* Select the Repository from the Github Dashboard.
+* Click on the "Clone or download" dropdown button which is located beside the Gitpod button to the right.
+* Click on the "clipboard icon" to the right to copy the web URL.
+* Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
+* Change the directory to where you want to clone the repository too.
+* Paste the Git URL copied from above and click "Ok". .
 
 ## Credits
 
+<hr>
+
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- The modal & the footer divider used was sourced from this [Site](https://mdbootstrap.com/).
+
+- The Skoot Route Idea was based on the design from this site [Here](https://skoot.ie/pages/dublin-skoot-routes). 
+
+- Some of the site design aspects where taken from this [Site](https://www.seat.ie/company/urban-mobility/exs-kickscooter.html). I also used some of the text for my scooter design section.
+
+- The auto scroll feature across my navlinks on my webpages is credited to [LearnDesign](https://www.youtube.com/channel/UCWCcoBXOXpNMg0p8Qrn2l0g) and their tutorial on Youtube.
+
+- My dropdown selector in the Test-Drive section and its JS code is based from [Stackoverflow](https://stackoverflow.com/questions/39176416/change-image-and-text-with-dropdown) and was adapted to work on my site.
+
+- [W3Schools](https://www.w3schools.com/html/html5_geolocation.asp) Was also used to assist myself in the setting up of the search location feature within the Test-Drive page.
+
+- The use of the Google Maps API and EmailJS and how to deploy them were assisted by the course content from the Code Institute Course.
 
 ### Media
-- The photos used in this site were obtained from ...
+
+- The photos used in this site were obtained from google images searches. As it is for educational purpose and not for profit i was made aware that it may not be neccessary to ask for permission.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I would like to thank those in Slack, the Tutor Support and my Mentor Gerard McBride for assisting with me with any queries i had during this project.
+
+Disclaimer: This project and its content were created for educational purposes only as part of the Code Institute Course for Milestone 2 Grading.
