@@ -510,6 +510,7 @@ footer a:hover {
 
 a.signature:hover {
     color: #ffffff;
+
 }
 
 .footer-copyright {
@@ -558,6 +559,7 @@ footer ul li a:hover {
 
 .social-icons:hover {
     color: #ffffff;
+    text-decoration: none;
 }
 
 /*-------------------------------------Map---------------------------------------------*/
