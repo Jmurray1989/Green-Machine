@@ -74,7 +74,7 @@ Two primary conflicting colors were chosen when creating this project:
 - ![#35b729](https://placehold.it/15/35b729/000000?text=+) `#35b729` 
 - ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff` 
 
-Both colours are featured across the site. On the homepage they are used to create a subtle gradient effect and also a glow in the sign-up modal. In areas were the contrast of a green background and black fonts were used we gave icons a hover effect of #ffffff(White). Also in areas were #ffffff was used main as the background we gave the hover effect the darker color of #000000(Black) mainly to show the user that these elements are interact-able and something can happen when clicked on.
+Both colours are featured across the site. On the homepage they are used to create a subtle gradient effect and also a glow in the sign-up modal. In areas were the contrast of a green background and black fonts were used we gave icons a hover effect of #ffffff(White). Also in areas were #ffffff was used mainly as the background we gave the hover effect of the darker color #000000(Black) to show the user that these elements are interact-able and something can happen when clicked on.
 
 A third color was used to give definiton were it was needed. (on icons etc)
 
@@ -188,7 +188,7 @@ Intuitive navigation fixed to the top of the the page that resizes for mobile de
 
 ### Removed Features
 
-Two features I decided to remove from the finished project where the arrow up floating button and the footer link scroll up feature that on click brought you back to the top of the page and to the users desired location due to the fact there was to much bouncing around the webpage and it didnt offer a great user experience.
+Two features I decided to remove from the finished project that i implemented early on where the arrow up floating button and the footer link scroll up feature that on click brought you back to the top of the page and to the users desired location due to the fact there was to much bouncing around the webpage and it didnt offer a great user experience.
 
 ### Future Plans
 
