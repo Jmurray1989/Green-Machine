@@ -7,6 +7,8 @@ body {
 
 /*-----------------------------------Background Color-----------------------------------*/
 
+/* Gradient Effect on Home*/
+
 .about-us-sec,
 .our-goal-sec,
 .technology-sec,
@@ -16,6 +18,14 @@ body {
 }
 
 /*-------------------------------------Navbar-------------------------------------------*/
+
+/*Favicon*/
+
+img.logo {
+    height: 6rem;
+}
+
+/*links*/
 
 a.nav-link {
     color: #35b729;
@@ -34,6 +44,8 @@ a.nav-link.active {
     color: #000000;
 }
 
+/*Sign Up Button*/
+
 .sign-up {
     background-color:  #35b729;
     color: #ffffff;
@@ -47,26 +59,34 @@ a.nav-link.active {
 
 /*-------------------------------------Modal-------------------------------------------*/
 
+/*Modal Glow on Placeholers*/
+
 .form-elegant .font-small {
-    font-size: 0.8rem; }
+    font-size: 0.8rem; 
+    }
 
 .form-elegant .z-depth-1a {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28);;
-    box-shadow: 0 2px 5px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28); }
+    -webkit-box-shadow: 0 2px 5px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28);
+    box-shadow: 0 2px 5px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28); 
+    }
 
 .form-elegant .z-depth-1-half,
 .form-elegant .btn:hover {
     -webkit-box-shadow: 0 5px 11px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28);
-    box-shadow: 0 5px 11px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28); }
+    box-shadow: 0 5px 11px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28); 
+    }
 
 .form-elegant .modal-header {
-    border-bottom: none; }
+    border-bottom: none; 
+    }
 
 .modal-dialog .form-elegant .btn .fab {
-    color: #35b729; }
+    color: #35b729; 
+    }
 
 .form-elegant .modal-body, .form-elegant .modal-footer {
-    font-weight: 400; }
+    font-weight: 400; 
+    }
 
 input#form-email1.form-control.validate.z-depth-1a {
     -webkit-box-shadow: 0 5px 11px 0 rgba(72, 255, 0, 0.28), 0 4px 15px 0 rgba(72, 255, 0, 0.28);
@@ -81,13 +101,11 @@ input#fullname {
     margin-bottom: 2rem;
 }
 
-/*-------------------------------------Images & Logos---------------------------------------------*/
+/*-------------------------------------Homepage---------------------------------------------*/
 
-img.logo {
-    height: 6rem;
-}
+/*Images*/
 
-/* The hero image */
+/* The Main Home image */
 
 .main-image {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scooterbar.jpg");
@@ -98,6 +116,8 @@ img.logo {
   background-size: cover;
   position: relative;
 }
+
+/* The Parralax Scrolling Images */
 
 .scroll-image2 {
   background:url("../images/scooterfeet.jpeg");
@@ -117,35 +137,7 @@ img.logo {
   background-size: cover;
 }
 
-.design-image {
-  background:url("../images/lime_scooter.jpg");
-  height: 70vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.route-image {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hapenny-bridge.jpg");
-  height: 70vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.shop-image {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scooter-wheel.jpg");
-  height: 70vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
+/*Download App Images*/
 
 div.app-logos {
     text-align: center;
@@ -157,9 +149,15 @@ div.app-logos {
     height: 46px;
 }
 
-.skoot-route-img {
-margin-top: 35px;
-margin-bottom: 20px;
+/* Design Section 3 Column Images on Homepage*/
+
+.design-image {
+  background:url("../images/lime_scooter.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img.design-images {
@@ -168,68 +166,7 @@ img.design-images {
     height: 45vh;
 }
 
-.drive-image {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/couple-scooter.jpg");
-  height: 70vh;
-  background-attachment: fixed;
-  background-position: 0px 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/*-------------------------------------Test Drive Section---------------------------------------------*/
-
-.drive-images {
-    padding-top: 1.5rem;
-    max-width: 100%;
-    height: 50vh;
-}
-
-.drive-text {
-    padding-top: 1.5rem;
-    text-align: center; 
-    font-weight: bolder;
-}
-
-.drive-section {
-    max-width: 30%;
-    background-color: #35b729;
-}
-
-select#scooterdropdown {
-    background-color: #ffffff;
-    margin-top: 2rem;
-    padding: 0.5rem;
-    border: 1px solid #35b729;
-    border-radius: 1rem;
-    margin-inline-start: 28vw;
-}
-
-.locate-stockist {
-    text-align: center;
-}
-
-.stockist-header {
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
-}
-
-.map-icon {
-    font-size: 3.5rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
-
-.search-stockist {
-    padding: 6rem;
-}
-
-.border-right {
-    border-right: 1px solid #ccc;
-}
-
-/*-------------------------------------Headers---------------------------------------------*/
+/*Headers*/
 
 /* Place text in the middle of the hero image */
 .main-text {
@@ -239,17 +176,6 @@ select#scooterdropdown {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #EBECEC;
-}
-
-/* Place text in the middle of the location hero image */
-
-.route-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
 }
 
 h1 {
@@ -284,13 +210,7 @@ h3.design-header {
     margin: 0.7em;
 }
 
-h3.route-header {
-    text-align: center;
-    padding-top: 50px;
-}
-
-
-/*-------------------------------------Sections---------------------------------------------*/
+/*Dividers & sections*/
 
 .about-us {
     text-align: center;
@@ -337,6 +257,169 @@ hr.space-design {
   width: 50%;
 }
 
+.design-sec {
+    text-align: center;
+}
+
+.design-p {  
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+/*-------------------------------------Shop---------------------------------------------*/
+
+/*Images*/
+
+.shop-image {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/scooter-wheel.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.scooter-shop-img {
+    padding-top: 1.5rem;
+    max-width: 100%;
+    height: 60vh;
+    float: left;
+    margin-right: 5rem;
+}
+
+.scooter-shop-img2 {
+    padding-top: 1.5rem;
+    max-width: 100%;
+    height: 60vh;
+    float: right;
+    margin-left: 5rem;
+}
+
+/*Headers*/
+
+.shop-header {
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.spec-header {
+    font-weight: bolder;
+    text-decoration: underline #35b729;
+}
+
+/*Buttons*/
+
+.shop_btn {
+    display: inline-block;
+    background-color: #000000;
+    border: 2px solid #000000;
+    font-size: 1rem;
+    padding: 15px 30px;
+    color: #ffffff;
+}
+
+.shop_btn:hover,
+.info_btn:hover {
+    color: #35b729;
+}
+
+.info_btn {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    font-size: 1rem;
+    padding: 15px 30px;
+    color: #000000;
+}
+
+.info_btn:focus {
+    border: 3px solid #35b729;
+    color: #000000;
+    outline: 0;
+}
+
+/*Other*/
+
+.scooter-wrap {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.price{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+ul.more-specs,
+ul.more-specs2,
+ul.more-specs3,
+ul.more-specs4 {
+    display: none;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+/*-------------------------------------Skoot Route---------------------------------------------*/
+
+/*Images*/
+
+.route-image {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hapenny-bridge.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.skoot-route-img {
+margin-top: 35px;
+margin-bottom: 20px;
+}
+
+/*Headers*/
+
+/* Place text in the middle of the Skoot Route hero image */
+
+.route-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+h3.route-header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*Buttons*/
+
+.skoot-button {
+    background-color:  #35b729;
+    color: #ffffff;
+    border: 10px #35b729 solid;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.skoot-button:hover {
+    color: #000000; 
+}
+
+/*Dividers & Sections*/
+
 p.locations {
   text-align: center;
   letter-spacing: 1px; 
@@ -363,118 +446,70 @@ hr.space-route-p {
     text-align: center; 
 }
 
-.skoot-button {
-    background-color:  #35b729;
-    color: #ffffff;
-    border: 10px #35b729 solid;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
-
-.skoot-button:hover {
-    color: #000000; 
-}
-
 p.skoot-route {
     display: grid;
     margin: 50px 25vw;
 }
 
-.design-sec {
+/*-------------------------------------Test-Drive---------------------------------------------*/
+
+/*Images*/
+
+.drive-image {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/couple-scooter.jpg");
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: 0px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.drive-images {
+    padding-top: 1.5rem;
+    max-width: 100%;
+    height: 50vh;
+}
+
+/*Headers*/
+
+.stockist-header {
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.drive-text {
+    padding-top: 1.5rem;
+    text-align: center; 
+    font-weight: bolder;
+}
+
+.drive-section {
+    max-width: 30%;
+    background-color: #35b729;
+}
+
+select#scooterdropdown {
+    background-color: #ffffff;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #35b729;
+    border-radius: 1rem;
+    margin-inline-start: 28vw;
+}
+
+.locate-stockist {
     text-align: center;
 }
 
-.design-p {
-    
-    font-size: 1rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 2rem;
+.search-stockist {
+    padding: 6rem;
 }
 
-/*------------Shop------------*/
-
-
-.scooter-shop-img {
-    padding-top: 1.5rem;
-    max-width: 100%;
-    height: 60vh;
-    float: left;
-    margin-right: 5rem;
+.border-right {
+    border-right: 1px solid #ccc;
 }
-
-.scooter-shop-img2 {
-    padding-top: 1.5rem;
-    max-width: 100%;
-    height: 60vh;
-    float: right;
-    margin-left: 5rem;
-}
-
-.scooter-wrap {
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.price{
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    font-weight: bolder;
-}
-
-.spec-header {
-    font-weight: bolder;
-    text-decoration: underline #35b729;
-}
-
-.shop_btn {
-    display: inline-block;
-    background-color: #000000;
-    border: 2px solid #000000;
-    font-size: 1rem;
-    padding: 15px 30px;
-    color: #ffffff;
-}
-
-.shop_btn:hover,
-.info_btn:hover {
-    color: #35b729;
-}
-
-.shop-header {
-    padding-bottom: 1rem;
-    font-weight: bolder;
-}
-
-.info_btn {
-    display: inline-block;
-    background-color: #ffffff;
-    border: 2px solid #000000;
-    font-size: 1rem;
-    padding: 15px 30px;
-    color: #000000;
-}
-
-.info_btn:focus {
-    border: 3px solid #35b729;
-    color: #000000;
-    outline: 0;
-}
-
-
-ul.more-specs,
-ul.more-specs2,
-ul.more-specs3,
-ul.more-specs4 {
-    display: none;
-    list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-}
-
 
 /*-------------------------------------Footer---------------------------------------------*/
 
@@ -502,6 +537,12 @@ ul.more-specs4 {
 
 .footer-list li {
     padding: 5px 1em;
+}
+
+.map-icon {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 footer a:hover {
@@ -693,7 +734,7 @@ p.skoot-route {
 
 }
 
-/*---Tablet---*/
+/*-----------------------------Tablet-----------------------------*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
@@ -770,7 +811,7 @@ img.design-images {
 
 }
 
-/*---Larger Screens---*/
+/*-----------------------Larger Screens--------------------------------*/
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
 
@@ -829,10 +870,3 @@ img.design-images {
 
 
 }
-
-
-
-
-
-
-
