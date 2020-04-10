@@ -84,7 +84,7 @@ A third color was used to give definiton were it was needed. (on icons etc)
 
 To build my wireframes i used [Balsamiq](https://balsamiq.com/).
 
-All wireframes created for this project can be found [Here](https://github.com/Jmurray1989/).
+All wireframes created for this project can be found [Here](https://github.com/Jmurray1989/Green-Machine/tree/master/assets/wireframes).
 
 Each element was structurally planned out at this stage and even during the physical build of the application there was not much deviation from the original planning. Each page was rendered as a wireframe in all viewport sizes to show the difference between them and to show how the elements would react to differing viewport sizes. 
 
@@ -92,15 +92,11 @@ Examples below:-
 
 * Desktop
 
-![Desktop-Home](https://github.com/Jmurray1989/)
-
-* Tablet
-
-![Tablet-Home](https://github.com/Jmurray1989/)
+<img height="300" width="300" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/wireframes/large-view/Desktop-Home.png">
 
 * Mobile
 
-![Mobile-Home](https://github.com/Jmurray1989/)
+<img height="300" width="300" src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/wireframes/mobile/Mobile-Home.png">
 
 ## Features
 
