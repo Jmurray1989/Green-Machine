@@ -20,16 +20,6 @@ $(function(){
     }
 });
 
-/* Adds smooth scroll up feature from footer links across all pages using jquery */
-
-$(function(){
-    $(".footer-links a").on('click', function(){
-        $("html, body").animate({
-            scrollTop: $(window.location.hash).offset().top 
-        }, 2500);
-    });
-});
-
 /* Clicking on Find out more button displays & hides more specs */
 
 $('.more-specs').hide();
