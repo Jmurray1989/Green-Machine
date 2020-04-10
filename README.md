@@ -13,7 +13,13 @@ Tasked to create a website combining knowledge from the Javascript Fundamentals 
 
 #### The Idea:
 
-The latest craze around town is electric scooters. Everywhere you now look in any major city across the world you will see electric scooters as they are a great alternative to a bike as you can easily fold them down to carry them on public transport if needed. 
+The latest craze around town is electric scooters. Everywhere you now look in any major city across the world you will see electric scooters as they are a great alternative to other modes of transport. 
+
+1. Portability. Rivalled only by folding bikes, electric scooters are perhaps the most portable mode of powered personal transport.
+2. Noise pollution. Travelling around a city and silence never go hand-in-hand
+3. Eco-friendly.
+4. Safety.
+
 So this gave me the idea to build a mock up website for a scooter shop based in Dublin, Ireland.
 I built this website using all the content we learned on the course and more using features like the Google Maps API, EmailJS & Javascript features.
 
@@ -35,7 +41,7 @@ Promote the shop by having a feature packed and user friendly website that will 
 
 ## Design
 
-<hr>
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/mock-up-devices.jpg">
 
 The project utilises the [Bootstrap 4](https:/getbootstrap.com/) framework to ensure Mobile first fully responsive design. When considering the design elements for this project, an eco-friendly/modern color scheme is what came to mind first.
 
@@ -127,7 +133,7 @@ Intuitive navigation fixed to the top of the the page that resizes for mobile de
 
 ### Auto Scroll
 
-* On click of each nav link or footer site links an auto scroll initiates and brings the user to the required destination.
+* On click of each nav link an auto scroll initiates and brings the user to the required destination across all pages.
 
 ### Buttons
 
@@ -182,7 +188,7 @@ Intuitive navigation fixed to the top of the the page that resizes for mobile de
 
 ### Removed Features
 
-One feature I decided to remove was the arrow up floating button that on click brought you back to the top of the page from towards the end of the project due to the fact i felt with already having the scroll down and the scroll up features applied to the nav & footer links it was to much bouncing around the webpage and didnt offer a great user experience.
+Two features I decided to remove from the finished project where the arrow up floating button and the footer link scroll up feature that on click brought you back to the top of the page and to the users desired location due to the fact there was to much bouncing around the webpage and it didnt offer a great user experience.
 
 ### Future Plans
 
@@ -191,6 +197,8 @@ One feature I decided to remove was the arrow up floating button that on click b
 - To take the skoot route idea and implement it so that people will be able to create their own routes and add them to a new section of the site or on the mobile app.
 
 - Create a database for the newsletter sign ups the site receives, to keep people up to date with all thats new with Green-Machine.
+
+-In the sign up newsletter modal, I would like to have the social icons fully functioning so that the user could sign up to the newsletter by signing up through their social media platforms.
 
 
 ## Technologies Used:
@@ -261,12 +269,16 @@ The Technologies I used to build this project are as follows,
 
 * Using JSHint to validate the project's Javascript
 
+[Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+
+* Used to crop, re-size, editing and creation of images.
+
 
 ## Testing
 
 <hr>
 
-The website has been tested across multiple browsers and on mobile devices to ensure compatibility and responsiveness of the site.Continuous testing for this application was carried throughout the entire lifetime of the build. This was achieved through the Chrome Devtools and it was used constantly to test on as many devices as possible from Android to Apple phones & tablet dimensions, and also larger device sizes. The website was tested constantly throughout the build at home using a Samsung Galaxy S10 & S8, a Xiaomi Redmi Pro 8 and for the tablet size i used an Amazon Fire HD 8 and an IPad.
+The website has been tested across multiple browsers and on mobile devices to ensure compatibility and responsiveness of the site. Continuous testing for this application was carried out throughout the entire lifetime of the build. This was achieved through Chrome Devtools and it was used constantly to test on as many devices as possible from Android to Apple phones & tablet dimensions, and also larger device sizes. The website was tested constantly throughout the build at home using devices i had on hand such as a Samsung Galaxy S10 & S8, a Xiaomi Redmi Pro 8 and for the tablet size i used an Amazon Fire HD 8.
 
 ### Desktop
 
@@ -278,17 +290,33 @@ The website has been tested across multiple browsers and on mobile devices to en
 
 ### Mobile Devices
 
-- iPhone 8
-- Galaxy S10
-- iPad
+- Xiaomi Redmi Pro 8
+- Galaxy S10, S8
+- iPad + iPad Pro (using Chrome devtools)
 - Amazon Fire Hd 8
-- IPad
 
 I used JSHint to validate the project's Javascript file which i configured to accept jQuery & ES6 New JS features, It returned with 14 warnings of which I fixed. Mainly it was missing semicolons and having some in the incorrect places.
 
 I used [W3C Mark-up Validation](https://validator.w3.org/) and [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to validate my html and css code. On running my HTML code throught the validator it returned a few errors which are all now fixed. 
 
 ### Known Issues
+
+I came across three issues. The three issues appeared within the IE and Microsoft Edge browsers.
+
+1. The hero image text overlay has an issue where the underline is not the color - ![#35b729](https://placehold.it/15/35b729/000000?text=+) `#35b729` it sets to the default white.
+
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue2.jpg">
+
+2. In the shop section, On click of the 'Find Out More' button the specifications appear in a toggle method. Only in IE & EDGE does a slight jump back of the text occur.
+
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue3.jpg">
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue1.jpg">         
+
+3. In the Test-Drive section my scooter selector dropdown is on the left of the screen.
+
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue 4.jpg">
+
+I have found none of these issues with any of the other browsers i tested.
 
 ## Deployment
 
