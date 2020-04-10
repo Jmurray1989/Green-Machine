@@ -344,8 +344,8 @@ hr.space-design {
 /*Other*/
 
 .scooter-wrap {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .price{
@@ -358,13 +358,8 @@ ul.more-specs,
 ul.more-specs2,
 ul.more-specs3,
 ul.more-specs4 {
-    display: none;
     list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+    padding-left: 0px;
 }
 
 /*-------------------------------------Skoot Route---------------------------------------------*/
@@ -496,7 +491,7 @@ select#scooterdropdown {
     padding: 0.5rem;
     border: 1px solid #35b729;
     border-radius: 1rem;
-    margin-inline-start: 28vw;
+    margin-left: 28vw;
 }
 
 .locate-stockist {
@@ -794,7 +789,7 @@ img.design-images {
 
 .search-stockist {
     padding: 1rem;
-    margin-block-start: 6rem;
+    margin-left: 6rem;
     text-align: center;
     padding-top: 0;
 }
@@ -853,7 +848,7 @@ img.design-images {
 
 .search-stockist {
     padding: 1rem;
-    margin-block-start: 5rem;
+    margin-left: 5rem;
     text-align: center;
     padding-top: 0;
 }
