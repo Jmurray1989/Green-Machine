@@ -307,7 +307,7 @@ I used [W3C Mark-up Validation](https://validator.w3.org/) and [W3C CSS Validati
 
 ### Known Issues
 
-I came across four issues. The three issues appeared within the IE and Microsoft Edge browsers.
+I came across four issues. The four issues appeared within the IE and Microsoft Edge browsers.
 
 #### 1. The hero image text overlay has an issue where the underline is not the color - ![#35b729](https://placehold.it/15/35b729/000000?text=+) `#35b729` it sets to the default white.
 
@@ -422,6 +422,6 @@ For assistance i have used the following sites:-
 
 ### Acknowledgements
 
-- I would like to thank those in Slack, the Tutor Support and my Mentor Gerard McBride for assisting with me with any queries i had during this project.
+- I would like to thank those in Slack, the Tutor Support and my Mentor Gerard McBride for assisting with me with any queries i had during this project. You and all the advice have really helped me during the course of this build.
 
 Disclaimer: This project and its content were created for educational purposes only as part of the Code Institute Course for Milestone 2 Grading.
