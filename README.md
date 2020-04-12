@@ -196,6 +196,8 @@ Two features I decided to remove from the finished project that i implemented ea
 
 - In the sign up newsletter modal, I would like to have the social icons fully functioning so that the user could sign up to the newsletter by signing up through their social media platforms.
 
+- To add customer reviews of our scooters.
+
 
 ## Technologies Used:
 
@@ -322,6 +324,30 @@ I came across three issues. The three issues appeared within the IE and Microsof
 
 I have found none of these issues with any of the other browsers i tested.
 
+As Safari is no longer developed for Windows I used a site known as [LambdaTest](https://www.lambdatest.com/) to run my code in a live view for mac and safari software. It returned a few errors however as this is not official software i cannot be sure the results given are accurate. When I tested my project through chrome and other browsers on this site it showed me errors which i do not have on these browsers when ran locally.
+
+### User Story Testing
+
+1. As a user I want to easily navigate the site across all pages.
+
+- This is possible due to the navbar and also the quick links featured within the footer at the bottom of the page. The site also features an auto scroll on certain links within parts of the page so the user does not have to scroll.
+
+2. As a user I want to see what different scooter models are available.
+
+- All this information is available in our shop section of the website.
+
+3. As a user I want to be able to check the specifications of each model so i can compare and decide on what one i would like to purchase or take for a test drive.
+
+- There is a 'Find Out More' button in our shop section which will reveal a specification list when clicked on.
+
+4. As a user i want to be able to contact the shop to answer any queries i may have.
+
+- This can be done by contacting by contacting the store by phone, email or post. All information of the store is given in the footer.
+
+5. As a user I want to sign-up to a newsletter so i can be kept up to date with the latest models or special offers.
+
+- Located in the navbar is a 'Sign-Up' button which will allow the user to subscribe to our newsletter and they will receive a notification email on receipt of their request.
+
 ## Deployment
 
 <hr>
@@ -372,6 +398,14 @@ To clone the website:
 - [W3Schools](https://www.w3schools.com/html/html5_geolocation.asp) Was also used to assist myself in the setting up of the search location feature within the Test-Drive page.
 
 - The use of the Google Maps API and EmailJS and how to deploy them were assisted by the course content from the Code Institute Course.
+
+### Code
+
+For assistance i have used the following sites:-
+
+* [Stack Overflow](https://stackoverflow.com/)
+* [CSS Tricks](https://css-tricks.com/)
+* [W3Schools](https://www.w3schools.com/)
 
 ### Media
 
