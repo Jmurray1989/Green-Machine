@@ -307,7 +307,7 @@ I used [W3C Mark-up Validation](https://validator.w3.org/) and [W3C CSS Validati
 
 ### Known Issues
 
-I came across three issues. The three issues appeared within the IE and Microsoft Edge browsers.
+I came across four issues. The three issues appeared within the IE and Microsoft Edge browsers.
 
 1. The hero image text overlay has an issue where the underline is not the color - ![#35b729](https://placehold.it/15/35b729/000000?text=+) `#35b729` it sets to the default white.
 
@@ -316,15 +316,24 @@ I came across three issues. The three issues appeared within the IE and Microsof
 2. In the shop section, On click of the 'Find Out More' button the specifications appear in a toggle method. Only in IE & EDGE does a slight jump back of the text occur.
 
 <img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue3.jpg">
-<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue1.jpg">         
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue1.jpg"> 
 
-3. In the Test-Drive section my scooter selector dropdown is on the left of the screen.
+3. In the Shop Section there is no underline shown under specifications.
+
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue5.jpg">
+
+4. In the Test-Drive section my scooter selector dropdown is on the left of the screen.
 
 <img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/issue 4.jpg">
 
 I have found none of these issues with any of the other browsers i tested.
 
 As Safari is no longer developed for Windows I used a site known as [LambdaTest](https://www.lambdatest.com/) to run my code in a live view for mac and safari software. It returned a few errors however as this is not official software i cannot be sure the results given are accurate. When I tested my project through chrome and other browsers on this site it showed me errors which i do not have on these browsers when ran locally.
+
+Issues i found were on mobile devices and the background images not displaying correctly please see examples below:
+
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/lambdatest1.jpg">
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/lambdatest2.jpg">
 
 ### User Story Testing
 
