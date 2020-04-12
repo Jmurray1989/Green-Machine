@@ -115,6 +115,9 @@ input#fullname {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /* The Parralax Scrolling Images */
@@ -126,6 +129,9 @@ input#fullname {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .scroll-image3 {
@@ -135,6 +141,9 @@ input#fullname {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /*Download App Images*/
@@ -280,6 +289,9 @@ hr.space-design {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .scooter-shop-img {
@@ -374,6 +386,9 @@ ul.more-specs4 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .skoot-route-img {
@@ -458,6 +473,9 @@ p.skoot-route {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .drive-images {
