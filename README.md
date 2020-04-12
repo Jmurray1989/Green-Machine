@@ -333,7 +333,8 @@ As Safari is no longer developed for Windows I used a site known as [LambdaTest]
 #### Issues i found were on mobile devices and the background images not displaying correctly please see examples below:
 
 <img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/lambdatest1.jpg">
-<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/lambatest2.jpg">
+<img src="https://github.com/Jmurray1989/Green-Machine/blob/master/assets/readme-images/lamdatest2.jpg">
+
 
 ### User Story Testing
 
