@@ -364,11 +364,11 @@ As Safari is no longer developed for Windows I used a site known as [LambdaTest]
 
 My project was developed using GitHub IDE, committed to git and pushed to GitHub. The following steps where taken to deploy my project.
 
-Logged into GitHub.
-Selected repository from the GitHub dashboard.
-Selected Settings at the top of the chosen repository.
-Scrolled down to GitHub Pages section.
-Under Source I clicked the drop-down menu and selected master branch.
+1. Logged into GitHub.
+2. Selected repository from the GitHub dashboard.
+3. Selected Settings at the top of the chosen repository.
+4. Scrolled down to GitHub Pages section.
+5. Under Source I clicked the drop-down menu and selected master branch.
 
 Website is now deployed and is available here:
 
@@ -378,16 +378,14 @@ My repository can be found here:
 
 * https://github.com/Jmurray1989/Green-Machine
 
-For this project, local deployment was not required.
-
 To clone the website:
 
-* Select the Repository from the Github Dashboard.
-* Click on the "Clone or download" dropdown button which is located beside the Gitpod button to the right.
-* Click on the "clipboard icon" to the right to copy the web URL.
-* Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
-* Change the directory to where you want to clone the repository too.
-* Paste the Git URL copied from above and click "Ok". .
+1. Select the Repository from the Github Dashboard.
+2. Click on the "Clone or download" dropdown button which is located beside the Gitpod button to the right.
+3. Click on the "clipboard icon" to the right to copy the web URL.
+4. Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
+5. Change the directory to where you want to clone the repository too.
+6. Paste the Git URL copied from above and click "Ok". .
 
 ## Credits
 
