@@ -74,7 +74,7 @@ function initMap() {
 }
 
 /* Operates the modal return mail function on newsletter request */
-
+/*Calls the function*/
 function sendMail(contactForm) {
     emailjs.send("gmail", "green_machine_newsletter", {
         "from_name": contactForm.name.value,
@@ -82,16 +82,16 @@ function sendMail(contactForm) {
     })
         .then(
             function (response) {
-                console.log("SUCCESS", response);
+                console.log("SUCCESS", response); /*On success it will return this message*/
             },
             function (error) {
-                console.log("FAILED", error);
+                console.log("FAILED", error); /*When the function encounters an error it will return Failed*/
             }
         );
     return false;  // To block from loading a new page
 }
 
-/* Submitting a form and hiding it */
+/* Submitting a form and hiding it/ Hides the modal on users click of sign up */
 
 $(document).ready(function () {
     $("#onSubmit").on('submit', function (e) {
@@ -99,20 +99,6 @@ $(document).ready(function () {
         $('#elegantModalForm').modal('hide');
     });
 });
-
-/* Option Selector For Test Drive Section */
-
-let img = document.getElementById("image");
-let text = document.getElementById("text");
-
-function setClass(e) {
-  let select = e.target;
-  img.src = select.options[select.selectedIndex].value;
-  text.innerHTML = select.options[select.selectedIndex].dataset.description;
-  return false;
-}
-
-document.getElementById("scooterdropdown").onchange = setClass;
 
 /* Gets Users Geo Location On Click And Returns Nearest Store Information, If User Says No Will Return Else */
 
@@ -125,11 +111,11 @@ function getLocation() {
     x.innerHTML = "Geolocation is not supported by this browser.";
   }
 }
-
+/*This function will run when the user allows permission*/
 function showPosition() {
   x.innerHTML = "Green-Machine " + "<br> 52-56 O'Connell Street Upper " +  "<br> North City " + "<br> Dublin" + "<br> 8PXQXV" + "<br> +353 (0)1 245 1034" + "<br> info@green-machine.com";
 }
-
+/*This function will run if the user selects NO*/
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:

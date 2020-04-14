@@ -806,10 +806,9 @@ img.design-images {
 /* Test-Drive */
 
 .search-stockist {
-    padding: 1rem;
-    margin-left: 6rem;
-    text-align: center;
-    padding-top: 0;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    padding: 0;
 }
 
 .drive-image {
@@ -865,10 +864,10 @@ img.design-images {
 /* Test-Drive */
 
 .search-stockist {
-    padding: 1rem;
-    margin-left: 5rem;
-    text-align: center;
-    padding-top: 0;
+    padding: 0rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    
 }
 
 .drive-image {
